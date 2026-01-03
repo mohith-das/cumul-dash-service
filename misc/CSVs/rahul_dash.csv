@@ -1,0 +1,8 @@
+dashboard_name,dashboard_id,dest_dataset
+Global Sales Summary - Exploding Kittens,617b37f7-cf09-49a7-bade-fd00f7a471fd,e0ebebfd-a070-480a-8a6d-452c28a32fcb
+Sales by ASIN and Category Breakdown - Exploding Kittens,efb4f926-2ffd-44f0-819c-26c9d57278ec,e0ebebfd-a070-480a-8a6d-452c28a32fcb
+Global Overview - Exploding Kittens,8d9a6f87-137a-47ae-b906-310e45a3363f,e0ebebfd-a070-480a-8a6d-452c28a32fcb
+COGS SUMMARY - Exploding Kittens,880226f2-0840-49d3-999c-122cbfc0b270,e0ebebfd-a070-480a-8a6d-452c28a32fcb
+Inventory & Stock Management  - Exploding Kittens,35745382-69cc-432a-978e-1be35462becd,01f25372-aa9b-4716-8de2-14235f59afdd
+Purchase Orders - Exploding Kittens,ba3ea885-efbf-4633-b215-0f93824bedda,2a5a3b09-4fa5-4f56-867b-e4ff06720d22
+Traffic Summary - Exploding Kittens,c7484d49-fa70-462f-b370-df0244248215,e0ebebfd-a070-480a-8a6d-452c28a32fcb

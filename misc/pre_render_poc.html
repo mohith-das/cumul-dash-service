@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Tabs</title>
+    <script
+      defer
+      src="https://cdn.luzmo.com/js/luzmo-embed/6.0.0/luzmo-embed.min.js"
+      charset="utf-8"
+    ></script>
+    <style>
+      .tab-content {
+        display: none;
+      }
+      .tab-content.active {
+        display: block;
+      }
+      .tabs {
+        display: flex;
+        justify-content: space-around;
+        cursor: pointer;
+        padding: 10px;
+        background-color: #f0f0f0;
+      }
+      .tab {
+        padding: 10px;
+      }
+      .tab.active {
+        font-weight: bold;
+        background-color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tabs" id="tabsContainer"></div>
+    <div id="tabsContentContainer"></div>
+
+    <script>
+      const LUZMO_API_KEY = "REDACTED";
+      const LUZMO_API_TOKEN =
+        "vSL292LXiju27KNZb7GB8nuSaM64K1CH4mmLeqTwZiVgKmzOtuAjH1lHuCmhohoBmSfFfgLq8CQ8H6X62rIy5BrLN4APvvQ2L2MUwzmL0G2vsxYnZWoCj4aFRLm0NAxxSTCSCD6AwCnDvRospk2GX7";
+      const LUZMO_APP_SERVER = "https://app.us.luzmo.com";
+      const LUZMO_API_HOST = "https://api.us.luzmo.com";
+
+      const DASHBOARDS = [
+        { id: "01af0aa3-9a4d-4956-a181-b4581b3b9617", name: "Phrase Analysis" },
+        {
+          id: "ab8e2706-88b0-418c-a7e6-1972da19374f",
+          name: "Negative Keywords",
+        },
+        {
+          id: "b896b60a-8f35-45b6-b07d-d10b58a15620",
+          name: "Search Term Analysis",
+        },
+        { id: "1554388a-f526-4f68-9bbb-4a261b24332e", name: "ASIN Analysis" },
+        {
+          id: "4478db11-1d16-48c6-9fcb-cdd5b4a72741",
+          name: "Product Insights",
+        },
+        {
+          id: "b1d96a5f-9e58-4514-9156-858005c32f9e",
+          name: "Performance Overview",
+        },
+        {
+          id: "f1eac537-ea9f-41e7-b0aa-b062705569af",
+          name: "Product Category",
+        },
+        {
+          id: "d6960710-061f-4c28-babb-e728c0844fdd",
+          name: "ASIN Performance",
+        },
+        {
+          id: "9a6ca8ad-149a-4cac-b1de-076574608c86",
+          name: "SearchTerm Insights",
+        },
+        {
+          id: "36be7ad3-1fb1-499a-826b-eed8dc3ea7cf",
+          name: "Placement Analysis",
+        },
+        {
+          id: "e3951fe7-adfe-435b-ae7f-335e7ae54941",
+          name: "ASIN Analysis",
+        },
+        {
+          id: "26607e04-72cf-4346-b641-ed05cccc16a2",
+          name: "Overlap Analysis",
+        },
+        {
+          id: "f0131484-fb9e-4d34-b196-4fa545a7ac03",
+          name: "Branded Searches",
+        },
+        {
+          id: "81fd4183-d74a-4a4f-8653-4a9150f9e21f",
+          name: "DSP Customer Loyalty",
+        },
+        {
+          id: "5cd01ea4-55da-4988-9ea3-1a4aca60c2b8",
+          name: "DSP Customer Acquisition",
+        },
+        {
+          id: "bcfcb887-fd0c-42b4-b134-dc261de3e06f",
+          name: "DSP Orders & Audience",
+        },
+        {
+          id: "7c653e2a-484e-4871-9df0-63f3161205ae",
+          name: "NTB Customers",
+        },
+        {
+          id: "10dec790-f567-46a3-b6de-946552335fbb",
+          name: "Customer Journey",
+        },
+        {
+          id: "313d0cc1-9493-490e-ab3d-7c3dcddb51cf",
+          name: "Amazon DSP Overview",
+        },
+        {
+          id: "ac840cd6-3867-44fb-b0e7-effc3f9df8f6",
+          name: "Performance Overview",
+        },
+        {
+          id: "15387639-cb92-4e30-ad9c-0c2667750744",
+          name: "DSP Audience Overlap",
+        },
+        {
+          id: "9823eb01-5d20-45aa-ad17-fa0b4e9af977",
+          name: "Performance Overview",
+        },
+        {
+          id: "ff57d0a7-27f0-4a4e-af78-cabbfcb00d50",
+          name: "ASIN Performance",
+        },
+        {
+          id: "c731979a-309b-48b9-90bc-b183b64c9a55",
+          name: "SearchTerm Insights",
+        },
+        {
+          id: "36e893e5-a6bf-4a23-98ed-e59534c7c411",
+          name: "Placement Analysis",
+        },
+        // Add more dashboards here
+      ];
+
+      const authorizationProperties = {
+        type: "embed",
+        username: "joost-luzmo-test-embed-user",
+        name: "Joost Luzmo test embed user",
+        email: "joost+saras@luzmo.com",
+        suborganization: "Luzmo",
+        access: {
+          collections: [
+            {
+              id: "7cceb867-88bc-44b1-8d1c-bf48fbc30329",
+              inheritRights: "use",
+            },
+          ],
+        },
+      };
+
+      const getAuthorizationTokenAndEmbed = async () => {
+        for (let i = 0; i < DASHBOARDS.length; i++) {
+          const dashboardComponent = document.getElementById(
+            `dashboard${i + 1}`
+          );
+          const { id: authorizationKey, token: authorizationToken } =
+            await getAuthorizationToken();
+
+          if (!authorizationKey) {
+            console.error("No authorization key received");
+            return;
+          }
+
+          embedDashboard(
+            authorizationKey,
+            authorizationToken,
+            DASHBOARDS[i].id,
+            dashboardComponent
+          );
+          addFilterEventListener(dashboardComponent);
+        }
+      };
+
+      const getAuthorizationToken = async (filters = []) => {
+        const authorizationRequestBody = {
+          action: "create",
+          version: "0.1.0",
+          key: LUZMO_API_KEY,
+          token: LUZMO_API_TOKEN,
+          properties: authorizationProperties,
+        };
+
+        authorizationRequestBody.properties.filters = filters;
+
+        try {
+          const response = await fetch(
+            LUZMO_API_HOST + "/0.1.0/authorization",
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(authorizationRequestBody),
+            }
+          );
+
+          if (response.status === 200) {
+            const responseData = await response.json();
+            console.log("Response of authorization request:", responseData);
+            return responseData;
+          } else {
+            const responseData = await response.json();
+            console.error("Authorization request failed! Error:", responseData);
+            return null;
+          }
+        } catch (error) {
+          console.error("An error occurred while making the request:", error);
+          return null;
+        }
+      };
+
+      const embedDashboard = (
+        authorizationKey,
+        authorizationToken,
+        dashboardId,
+        dashboardComponent
+      ) => {
+        if (!dashboardComponent) {
+          console.error(
+            `Dashboard with id ${dashboardId} not found in the DOM.`
+          );
+          return;
+        }
+
+        dashboardComponent.appServer = LUZMO_APP_SERVER;
+        dashboardComponent.apiHost = LUZMO_API_HOST;
+        dashboardComponent.authKey = authorizationKey;
+        dashboardComponent.authToken = authorizationToken;
+        dashboardComponent.dashboardId = dashboardId;
+      };
+
+      const initializeTabs = () => {
+        const tabsContainer = document.getElementById("tabsContainer");
+        const tabsContentContainer = document.getElementById(
+          "tabsContentContainer"
+        );
+
+        DASHBOARDS.forEach((dashboard, index) => {
+          // Create tab
+          const tab = document.createElement("div");
+          tab.textContent = dashboard.name;
+          tab.dataset.tab = `tab${index + 1}`;
+          tab.classList.add("tab");
+          if (index === 0) tab.classList.add("active");
+          tabsContainer.appendChild(tab);
+
+          // Create tab content
+          const tabContent = document.createElement("div");
+          tabContent.id = `tab${index + 1}`;
+          tabContent.classList.add("tab-content");
+          if (index === 0) tabContent.classList.add("active");
+
+          const dashboardComponent = document.createElement(
+            "luzmo-embed-dashboard"
+          );
+          dashboardComponent.id = `dashboard${index + 1}`;
+          tabContent.appendChild(dashboardComponent);
+          tabsContentContainer.appendChild(tabContent);
+        });
+
+        const tabs = document.querySelectorAll(".tab");
+        const tabContents = document.querySelectorAll(".tab-content");
+
+        tabs.forEach((tab) => {
+          tab.addEventListener("click", () => {
+            tabs.forEach((t) => t.classList.remove("active"));
+            tab.classList.add("active");
+
+            tabContents.forEach((content) =>
+              content.classList.remove("active")
+            );
+            document.getElementById(tab.dataset.tab).classList.add("active");
+          });
+        });
+      };
+
+      const addFilterEventListener = (dashboardComponent) => {
+        dashboardComponent.addEventListener("changedFilters", async (event) => {
+          const filters = event.detail.data.filters;
+          for (let i = 0; i < DASHBOARDS.length; i++) {
+            const otherDashboardComponent = document.getElementById(
+              `dashboard${i + 1}`
+            );
+            if (otherDashboardComponent !== dashboardComponent) {
+              const { id: authorizationKey, token: authorizationToken } =
+                await getAuthorizationToken(filters);
+              otherDashboardComponent.setAuthorization(
+                authorizationKey,
+                authorizationToken
+              );
+              otherDashboardComponent.refreshData();
+            }
+          }
+        });
+      };
+
+      window.onload = () => {
+        initializeTabs();
+        getAuthorizationTokenAndEmbed();
+      };
+    </script>
+  </body>
+</html>

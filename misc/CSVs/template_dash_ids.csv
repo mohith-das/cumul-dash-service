@@ -1,0 +1,40 @@
+﻿Group,Dashboard,dashboard_id
+Sales,Executive Snapshot,15f7c7bc-2007-4a6e-b1f0-40105990c5fb
+,Executive Trends,7ab570b2-1194-4fc3-a09f-ff6c7c190f17
+,Channel Comparison,f020bf2c-9b9b-4f45-bcf9-edf75176b034
+,Account Overview Amazon,144886e1-57a9-40b9-8a9c-2e57f5e954ff
+,Account Overview Shopify,d53d02ca-a1d5-4161-8140-acfcc9b320cf
+Marketing,Overview,a323bea1-2bfe-4c99-a4fe-333362107a6e
+,Amazon ads,bc4b22ca-e0b8-4a9e-ad1c-7ed4d0570b94
+,FB ads,0c0c7253-281e-4644-b7d5-204ee36d42ab
+,Google ads,dbb593b7-a43e-44ca-9802-4f61b2eb3d14
+,Email,5d336c02-de67-423b-9e4e-e0a12f2327e2
+,Bing ads,c6457299-e150-49e9-b1bb-65af676d9928
+,Pinterest ads,
+Advanced Marketing Analytics,Attribution,
+,Lost Spend ,b99f7ef7-d072-4c8c-8852-674fdefffe94
+,AMC,bf2f733e-3d78-4b48-9010-b76c30f246d6
+,Elasticity Charts,dcee259a-ac42-40a6-af1c-d35137e5a50d
+,Daysofweek,
+,DateBrowser Custom,518168eb-75fa-4eb9-b237-424111f45820
+,DateBrowser Daily,0fa717a1-70a8-4c2d-b242-4a615cc192c5
+,DateBrowser Weekly,4c99f3fb-31ed-4444-a4d9-1df7e1de1685
+,DateBrowser Monthly,b5f959f0-6391-4d9e-ab8b-3fd57b19b807
+,DateBrowser Yearly,072d9c1d-5417-4222-bb3f-c2776dece00d
+Finance,financeOverview,bbc67b64-3dc5-49d9-a7e5-4170f97d667d
+,PnlAmazon,27af5e87-fcff-458a-9756-83c03a094f92
+,Pnl Shopify,
+,Investor Ready,
+Customer,Customer,ae74ac36-0b21-4b1c-a8b2-ea06c266d78f
+Product,Product,fdfad652-df5b-4a40-b8b3-2e1584e39d89
+Operations,Inventory Amazon,e5110000-e62a-4a9d-8e0c-43c7cd887a2d
+,Inventory Shopify,
+,Returns,9abd4e32-c9bc-4933-a17b-192d1f12fd8a
+,Shipping,
+,Amazon Listings Performance,a0a3fa1d-90d3-4867-aac4-2538ea068ce1
+,Vendor Central,237e7ae2-0725-455d-b8ef-c2ad84f8d27f
+Amazon Ads Split,Overview,
+,keywords,
+,campaign,
+,search term,
+,Ad KPI,

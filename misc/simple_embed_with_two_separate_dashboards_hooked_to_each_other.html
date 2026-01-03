@@ -1,0 +1,320 @@
+<head>
+  <script
+    defer
+    src="https://cdn.luzmo.com/js/luzmo-embed/6.0.0/luzmo-embed.min.js"
+    charset="utf-8"
+  ></script>
+</head>
+<body>
+  <div style="display: flex; width: 100%; flex-direction: column">
+    <luzmo-embed-dashboard id="firstDashboard"></luzmo-embed-dashboard>
+    <luzmo-embed-dashboard id="secondDashboard"></luzmo-embed-dashboard>
+  </div>
+  <script>
+    /*
+        #############################################
+        #############################################
+        ADAPT THE FOLLOWING VARIABLES (IF NECCESSARY)
+        #############################################
+        #############################################
+    */
+
+    // Luzmo API key and token
+    const LUZMO_API_KEY = "REDACTED";
+    const LUZMO_API_TOKEN = "REDACTED";
+
+    // Luzmo app and api host
+    const LUZMO_APP_SERVER = "https://app.us.luzmo.com";
+    const LUZMO_API_HOST = "https://api.us.luzmo.com";
+
+    const FIRST_DASHBOARD_TO_EMBED = "94f94166-0e61-46ca-bc34-f8dd32c0cb26"; // Dashboard w/o search terms
+    const SECOND_DASHBOARD_TO_EMBED = "c5703cf3-abc7-4ceb-8238-b809de517cf6"; // Dashboard w only search terms
+
+    // Authorization request properties
+    const authorizationProperties = {
+      type: "embed",
+      username: "joost-luzmo-test-embed-user",
+      name: "Joost Luzmo test embed user",
+      email: "joost+saras@luzmo.com",
+      suborganization: "Luzmo",
+      access: {
+        collections: [
+          {
+            id: "7cceb867-88bc-44b1-8d1c-bf48fbc30329", // Collection containing the separated dashboards
+            inheritRights: "use",
+          },
+        ],
+      },
+    };
+
+    /*
+        #############################################
+        #############################################
+                            END
+        #############################################
+        #############################################
+    */
+
+    /*
+     * Method to get initial tokens, embed the dashboards, and set up events listeners on the dashboards' filters
+     */
+    const getAuthorizationTokenAndEmbed = async () => {
+      const firstDashboardComponent = document.getElementById("firstDashboard");
+      const secondDashboardComponent =
+        document.getElementById("secondDashboard");
+
+      try {
+        const { id: firstAuthorizationKey, token: firstAuthorizationToken } =
+          await getAuthorizationToken();
+
+        if (!firstAuthorizationKey) {
+          console.error("No authorization key received");
+          return;
+        }
+
+        // Embed the first dashboard
+        embedDashboard(
+          firstAuthorizationKey,
+          firstAuthorizationToken,
+          FIRST_DASHBOARD_TO_EMBED
+        );
+
+        firstDashboardComponent.addEventListener("itemsRendered", async () => {
+          console.log(
+            "First dashboard items rendered, getting filters & starting to load second dashboard"
+          );
+
+          // Get the filters from the first dashboard
+          const filters = await firstDashboardComponent.getFilters();
+          console.log("Filters from first dashboard:", filters);
+
+          // Map into backend filters to specify on token
+          const backendFilters = mapFrontendFiltersIntoBackendFilters({
+            detail: { data: { filters } },
+          });
+
+          console.log(
+            "Backend filters to apply on second dashboard:",
+            backendFilters
+          );
+
+          // Get new token with filters
+          const {
+            id: secondAuthorizationKey,
+            token: secondAuthorizationToken,
+          } = await getAuthorizationToken(backendFilters);
+
+          if (!secondAuthorizationKey) {
+            console.error("Second authorization key not received");
+            return;
+          }
+
+          // Embed the second dashboard
+          embedDashboard(
+            secondAuthorizationKey,
+            secondAuthorizationToken,
+            SECOND_DASHBOARD_TO_EMBED
+          );
+
+          // Add an event listener on first dashboard to listen for changed filters
+          firstDashboardComponent.addEventListener("changedFilters", () =>
+            handleChangedFilters(event, secondDashboardComponent)
+          );
+
+          // Add an event listener on second dashboard to listen for changed filters
+          secondDashboardComponent.addEventListener("changedFilters", () =>
+            handleChangedFilters(event, firstDashboardComponent)
+          );
+        });
+      } catch (error) {
+        console.error(
+          "An error occurred while initially embedding the dashboard:",
+          error
+        );
+      }
+    };
+
+    /*
+     * Method to handle changed filters event from a dashboard:
+     * - Parses changed filters from frontend into backend object
+     * - Request a new token with the filters
+     * - Pass along the new token to the dashboard using `setAuthorization` method
+     * - Trigger a refresh of the dashboard using `refreshData` method to apply the new filters from the token
+     */
+    const handleChangedFilters = async (event, dashboardElementToUpdate) => {
+      console.log(
+        "The following changedFilters event is received from a dashboard:",
+        event
+      );
+
+      const backendFilters = mapFrontendFiltersIntoBackendFilters(event);
+      try {
+        // Get new token with filters for the first dashboard
+        const { id: authorizationKey, token: authorizationToken } =
+          await getAuthorizationToken(backendFilters);
+
+        // Pass along the new token to the first dashboard using setAuthorization
+        await dashboardElementToUpdate.setAuthorization(
+          authorizationKey,
+          authorizationToken
+        );
+
+        // Trigger a refresh of the first dashboard to apply the new filters from the token
+        await dashboardElementToUpdate.refreshData();
+
+        console.log("Other dashboard refreshed with new filters");
+      } catch (error) {
+        console.error(
+          "An error occurred while handling changed filters:",
+          error
+        );
+      }
+    };
+
+    /*
+     * Helper method to map frontend interactivity filters into backend static filters.
+     * This is used to apply the filters from one dashboard to another, using the authorization token.
+     */
+    const mapFrontendFiltersIntoBackendFilters = (
+      frontendChangedFiltersEvent
+    ) => {
+      const frontendFilters = frontendChangedFiltersEvent.detail.data.filters;
+
+      return (
+        frontendFilters
+          // Remove non-interactivity filters
+          .filter(
+            (frontendFilter) =>
+              !["itemFilter", "global"].includes(frontendFilter.origin)
+          )
+          // Map into backend filters as global filters (i.e. applied on all charts).
+          // If only certain widgets need to be filtered, you'll want to create these filters with origin "chart" for each chart that needs to be filtered.
+          .map((frontendFilter) => ({
+            clause: "where",
+            origin: "global",
+            securable_id: frontendFilter.filters[0].parameters[0].dataset_id,
+            column_id: frontendFilter.filters[0].parameters[0].column_id,
+            expression: frontendFilter.filters[0].expression,
+            value: frontendFilter.filters[0].parameters[1],
+          }))
+      );
+    };
+
+    /*
+     * Method to get an Embed authorization token in the frontend
+     * NOTE: This is only performed in the frontend for demonstration purposes. DO NOT USE IN PRODUCTION, as it exposes the API token.
+     */
+    const getAuthorizationToken = async (filters = []) => {
+      const authorizationRequestBody = {
+        action: "create",
+        version: "0.1.0",
+        key: LUZMO_API_KEY,
+        token: LUZMO_API_TOKEN,
+        properties: authorizationProperties,
+      };
+
+      // Add filters to the token
+      authorizationRequestBody.properties.filters = filters;
+
+      try {
+        const response = await fetch(LUZMO_API_HOST + "/0.1.0/authorization", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(authorizationRequestBody),
+        });
+
+        if (response.status === 200) {
+          // Parse response into JSON object
+          const responseData = await response.json();
+          console.log("Response of authorization request:", responseData);
+          return responseData;
+        } else {
+          // Show error in page
+          const responseData = await response.json();
+
+          console.error("Authorization request failed! Error:", responseData);
+          return null;
+        }
+      } catch (error) {
+        console.error("An error occurred while making the request:", error);
+
+        return null;
+      }
+    };
+
+    /*
+     * Method to embed a dashboard with the Embed authorization key-token pair
+     */
+    const embedDashboard = (
+      authorizationKey,
+      authorizationToken,
+      dashboardId
+    ) => {
+      const dashboardComponent = document.getElementById(
+        dashboardId === FIRST_DASHBOARD_TO_EMBED
+          ? "firstDashboard"
+          : "secondDashboard"
+      );
+
+      if (!dashboardComponent) {
+        console.error(`Dashboard with id ${dashboardId} not found in the DOM.`);
+        return;
+      }
+
+      // Pass along the app and api host to the frontend component
+      dashboardComponent.appServer = LUZMO_APP_SERVER;
+      dashboardComponent.apiHost = LUZMO_API_HOST;
+
+      // Set the Authorization key and token before passing along the dashboard identifier
+      dashboardComponent.authKey = authorizationKey;
+      dashboardComponent.authToken = authorizationToken;
+
+      // Specify the dashboard to embed
+      dashboardComponent.dashboardId = dashboardId;
+    };
+
+    /*
+     * Method to persist dashboard initialization filters
+     */
+    const persistFilters = (filters) => {
+      let filtersToPersist;
+
+      // No filters have been persisted yet, so create a new element
+      if (!localStorage.filters) filtersToPersist = {};
+      else {
+        // Retrieve all persisted filters,
+        // to overwrite only the filters for the currently embedded dashboard
+        const persistedFilters = localStorage.getItem("filters");
+        filtersToPersist = JSON.parse(persistedFilters);
+      }
+
+      // Scope the filters storage per dashboard, overwriting existing filters
+      filtersToPersist[DASHBOARD_TO_EMBED] = filters;
+
+      localStorage.setItem("filters", JSON.stringify(filtersToPersist));
+    };
+
+    /*
+     * Method to retrieve persisted dashboard initialization filters
+     */
+    const getPersistedFilters = () => {
+      const filters = localStorage.getItem("filters");
+
+      // Return empty filters if no filters have been persisted yet
+      if (!filters || filters.length === 0) return [];
+
+      const parsedFilters = JSON.parse(filters);
+
+      // Get dashboard specific initialization filters persisted
+      const dashboardInitFilters = parsedFilters[DASHBOARD_TO_EMBED];
+      if (dashboardInitFilters) return dashboardInitFilters;
+
+      return [];
+    };
+
+    // Trigger the method to request a authorization token and embed a dashboard
+    window.onload = getAuthorizationTokenAndEmbed;
+  </script>
+</body>

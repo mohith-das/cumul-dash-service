@@ -1,0 +1,62 @@
+dashboard_id,dataset_name,dataset_id
+810ff31f-d058-4bf1-816d-34fc8c5e40f7,executive-pbi-masked,8aa14013-43fd-40ae-a2b8-aaecf125fd91
+810ff31f-d058-4bf1-816d-34fc8c5e40f7,lostspend-advertising-masked,8480078e-ce7b-467c-813b-cc9e9d531129
+174ebe47-6b1b-47dd-a251-5bb5903802d3,datebrowser_monthly_masked_kos,24c5f1cb-0c8b-421f-824a-2a8509286bd6
+174ebe47-6b1b-47dd-a251-5bb5903802d3,datebrowsercampaignmonthly_masked_kos,9935f956-965c-4b96-ac3c-750b4d998c32
+c124cc86-55ae-4075-ab4b-887d18cae5ba,datebrowser_weekly_masked_kos,b494d646-f4c1-42d4-a18c-27240828d841
+c124cc86-55ae-4075-ab4b-887d18cae5ba,datebrowsercampaign_weekly_masked_kos,54aef3b1-7970-45c5-b298-593b6861e0d2
+1570e836-2cc9-4d71-b366-83bd23d55d06,datebrowser_daily_masked_kos,d214f3d2-2082-4721-a9e7-d1f864000d9a
+1570e836-2cc9-4d71-b366-83bd23d55d06,datebrowsercampaigndaily_masked_kos,856e8049-3492-4ea7-85a4-6879a7088bd5
+7610db64-d565-4229-a2ad-75b7c9ffa030,datebrowser_daily_masked_kos,d214f3d2-2082-4721-a9e7-d1f864000d9a
+7610db64-d565-4229-a2ad-75b7c9ffa030,datebrowsercampaigndaily_masked_kos,856e8049-3492-4ea7-85a4-6879a7088bd5
+5d9b8319-616d-412e-9f5e-422aa9259f72,date browser yearly_masked_kos,9913dae4-36f8-4db2-9db4-c36301cb7423
+5d9b8319-616d-412e-9f5e-422aa9259f72,date browser campaign yearly_masked_kos,63ecbe20-c9b2-401e-a17b-ffc2db2169e3
+6d2fe752-57ee-4aa5-9165-bb9aed077885,lostspend-targeting-masked,a1b4ca5a-dc22-4709-968a-3c3a8217bb53
+6d2fe752-57ee-4aa5-9165-bb9aed077885,lostspend-advertising-masked,8480078e-ce7b-467c-813b-cc9e9d531129
+c5e00205-8649-48f5-9615-40852b39efcc,returnmasked,dc974653-4bc6-4f96-996e-e988c4a459bb
+47ff1963-2098-401f-8389-870825a0ccfb,amazonads_productwise_pivot,bccd4b64-fd90-49e9-ba5b-3d7c53d1f531
+47ff1963-2098-401f-8389-870825a0ccfb,amazonads_tacos,f47ef371-7618-40ac-9967-dba7d0553a9f
+47ff1963-2098-401f-8389-870825a0ccfb,amazonads_campaignwise_pivot,607e3ec5-ac7e-4a2d-95b0-13f91933cb29
+47ff1963-2098-401f-8389-870825a0ccfb,amazonads_advertising_masked,7d003e3c-61a6-493a-b1a5-eadd9584215f
+47ff1963-2098-401f-8389-870825a0ccfb,amazonads_targeting_masked,297cbc05-485c-4b37-bf4a-b6c2975b19f6
+40dd89d2-b0ff-49ee-b25d-6b8e2be78ee3,facebookads_campaignwise_pivot_cumul_masked,862951de-6869-4c5c-89cd-3c4e168e6f30
+40dd89d2-b0ff-49ee-b25d-6b8e2be78ee3,facebookads_advertising_masked,f9408566-03ab-44f5-881f-09f5491cbb7c
+17eb97f1-1a05-48f7-8867-9b6e12849564,googleads_campaignwise_pivot_cumul_masked,c13ca0ba-9659-4b08-9ceb-33b60186e1b7
+17eb97f1-1a05-48f7-8867-9b6e12849564,dev_ekos_excel - googleads - targeting - masked,42d89038-d109-4186-818f-e41fba482074
+17eb97f1-1a05-48f7-8867-9b6e12849564,googleads_advertising_masked,3ece2c3c-4baa-4e53-acfe-d418406def73
+93851471-b5db-4c84-9408-397c89917d44,dev_ekos - pnl_amazon_cumul_masked,270ac7fb-fbcf-4ce1-9f31-05e5fbd6ba44
+e73cafca-7297-45db-9602-bd9db55a9f35,finance overview masked,eae1c693-2c82-486b-a3ea-7a1f662ea5a7
+c6de76e2-f6fe-4e42-9c78-b3f1026bd063,inventory amazon masked,a0563379-0b8e-404e-9393-b34283c1c9e7
+c6de76e2-f6fe-4e42-9c78-b3f1026bd063,amazon distinct asins,80a0f62a-dbe3-487f-a423-6a63a7737283
+f5e5c862-4214-4189-a88e-98fc42994481,dev_ekos - executive_dashboard_cumul_masked,a4315921-b423-489f-8ab6-d4793e010e32
+7ab570b2-1194-4fc3-a09f-ff6c7c190f17,executive dashboard pbi masked,2ac55628-b423-4a6c-897a-efc80824f56a
+f020bf2c-9b9b-4f45-bcf9-edf75176b034,executive trends pbi masked,ad711db4-e2bb-4942-8227-62d649eafba7
+318b4946-9080-450f-983d-762a2f8d345f,dev_ekos - product_pbi_masked,ce018fdd-8d38-4792-8bd2-cdf29a6fb315
+318b4946-9080-450f-983d-762a2f8d345f,dev_ekos - product_affinity_cumul_masked,d8bc2acd-2ea0-407c-acc6-54bd578244b7
+7be3c509-85ba-4d2b-9b84-04f980f442e6,customer_glance_customer_metrics_pbi_masked,cfb8831b-5f03-491b-b669-13296589cf22
+7be3c509-85ba-4d2b-9b84-04f980f442e6,customer_rfm_segments_cumul_masked,9374036a-a7d2-4c29-80da-03e3de0debc8
+7be3c509-85ba-4d2b-9b84-04f980f442e6,customer_glance_cltv_cumul_masked,8db11973-380f-4dd2-a298-1bf9450008d4
+7be3c509-85ba-4d2b-9b84-04f980f442e6,customer-glance-pbi masked,031848e6-ed55-49c0-b497-d2febf5828d3
+7be3c509-85ba-4d2b-9b84-04f980f442e6,customer_cohortwise_pivot_cumul_masked,47bc250a-f021-4c0f-9d68-ef39890f845d
+7be3c509-85ba-4d2b-9b84-04f980f442e6,cohorts_demo_new,92c6d18d-7442-4e5d-b188-59c49c314e32
+159a623f-be52-40c0-b630-e14ac84979ae,dev_ekos_excel - amazon_account_overview_feedback_masked,77c75100-1520-4c6b-bc1e-654cc040de1a
+159a623f-be52-40c0-b630-e14ac84979ae,dev_ekos_excel - amazon_account_overview_listings_masked,e9794921-1706-40eb-9d5d-ce677d4b7a9b
+159a623f-be52-40c0-b630-e14ac84979ae,dev_ekos_excel - amazon_account_overview_customer_rfm_cumul_masked,be70c739-770a-465c-b046-14716f7b4e70
+159a623f-be52-40c0-b630-e14ac84979ae,dev_ekos_excel - amazon_account_overview_sales_masked,0788ac99-baa0-4eae-a8d9-f01fe8ae3b79
+159a623f-be52-40c0-b630-e14ac84979ae,dev_ekos_excel - amazon_account_overview_customer_section_cumul_masked,0929c274-c6fa-4690-a1c6-9a39053818c7
+159a623f-be52-40c0-b630-e14ac84979ae,dev_ekos_excel - amazon_account_overview_listings_cumul_masked,42250832-2918-4c01-88db-0c04f660234e
+159a623f-be52-40c0-b630-e14ac84979ae,dev_ekos_excel - amazon_account_overview_product_cumul_masked,3a24929d-5813-4c15-89a1-1bf661bd465f
+159a623f-be52-40c0-b630-e14ac84979ae,dev_ekos_excel - amazon_account_overview_sales_marketing_profit_masked,2134deeb-5ddd-4538-b051-4b8ab31bb3a4
+dbab9061-3de5-4930-9a2d-ef39b2824643,dev_ekos_excel - amazon_account_overview_customer_section_cumul_masked,b7975e29-2e9b-4582-b08e-6c9a3af4a415
+dbab9061-3de5-4930-9a2d-ef39b2824643,dev_ekos_presentation - amazon_account_overview_listings_cumul,d09b93e2-b1d8-4c8a-bd3d-cf6e091a2727
+dbab9061-3de5-4930-9a2d-ef39b2824643,dev_ekos_presentation - amazon_account_overview_product_cumul,9ce292e7-b3d2-4d77-a276-3200e3256f15
+dbab9061-3de5-4930-9a2d-ef39b2824643,dev_ekos_excel - shopify_account_overview_sales_masked,fe8daf0c-d8a3-4ba9-8521-eea3ddd56d97
+dbab9061-3de5-4930-9a2d-ef39b2824643,dev_ekos_excel - amazon_account_overview_listings_masked,e9794921-1706-40eb-9d5d-ce677d4b7a9b
+dbab9061-3de5-4930-9a2d-ef39b2824643,dev_ekos_excel - amazon_account_overview_customer_rfm_cumul_masked,be70c739-770a-465c-b046-14716f7b4e70
+dbab9061-3de5-4930-9a2d-ef39b2824643,dev_ekos_excel - amazon_account_overview_feedback_masked,77c75100-1520-4c6b-bc1e-654cc040de1a
+dbab9061-3de5-4930-9a2d-ef39b2824643,dev_ekos_excel - shopify_account_overview_sales_marketing_profit_masked,09d51aad-9892-4e30-a969-84b6e98485b2
+332bd7ea-cc37-4a66-a4f2-c9f2e225c609,dev_edm_prsn - emailmarketing_pbi_anon,686d7a8f-0027-4d58-a13d-ec8ca7427ec6
+321590c9-229c-4f17-9b19-d625323a7eac,bingads_targeting_masked,bc2f4b9c-a406-45ec-942a-caaff77b8805
+321590c9-229c-4f17-9b19-d625323a7eac,bingads_campaignwise_pivot_cumul_masked,d3633ade-af5e-4a5b-b7eb-cb3db8ae9584
+321590c9-229c-4f17-9b19-d625323a7eac,bingads_advertising_masked,85509ae8-6668-44e9-8a17-af4c576ee225
+217a21ec-5a46-492c-ae9f-c30ae8b4ba5d,listingsmasked,a87d396c-8797-44b0-963b-6685278c2f75

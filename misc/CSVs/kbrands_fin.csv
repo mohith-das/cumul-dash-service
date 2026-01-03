@@ -1,0 +1,29 @@
+dashboard_id,table_name,dst_dataset_id,dataset_id,dashboard_type,dashboard_rank,dashboard_name
+95d759ce-4a16-487a-8d1a-31a6e00eb2ca,Returns_PBI, 2f78a450-994a-4db2-9355-161212ca7894 ,cf841e46-1ce0-4dc3-93a6-a1030d149a45,OPERATIONS_RETURNS,3,Returns
+26920676-f0e2-4ee3-b860-540ea5883c29,date_browser_campaign_yearly, 3bc588ca-d370-4e58-ac7b-45466e7c50a2 ,a260281a-85d4-4291-82e5-372e6762ff44,ADVANCED_MARKETING_ANALYTICS_DATEBROWSER_YEARLY,10,Date Browser Yearly
+26920676-f0e2-4ee3-b860-540ea5883c29,date_browser_yearly, 8e662110-1421-4e64-90d8-12388997bd98 ,7bf0ffd8-9d65-44ce-82f1-b6918db992a3,ADVANCED_MARKETING_ANALYTICS_DATEBROWSER_YEARLY,10,Date Browser Yearly
+750088ed-2f03-4a59-804b-8dd650757dc7,date_browser_monthly, a4c39024-8cb6-4c0b-8718-1abd3cb14136 ,6e68f7ed-9dda-4719-89b4-5700a5b58a8a,ADVANCED_MARKETING_ANALYTICS_DATEBROWSER_MONTHLY,9,Date Browser Monthly
+750088ed-2f03-4a59-804b-8dd650757dc7,date_browser_campaign_monthly, d8f75c0b-659b-47a1-8586-b1df8510716d ,bf7ae016-b66a-4aac-a6fe-cf6567e5d57a,ADVANCED_MARKETING_ANALYTICS_DATEBROWSER_MONTHLY,9,Date Browser Monthly
+d475f5d2-a9c8-4614-a372-5838e70bd9d7,date_browser_campaign_daily, cb0db810-0710-47dc-a39d-5d8f1041b7ba ,0b12bf49-f7f5-4acc-99d6-bf1d6b4af6fe,ADVANCED_MARKETING_ANALYTICS_DATEBROWSER_DAILY,7,Date Browser Daily
+d475f5d2-a9c8-4614-a372-5838e70bd9d7,date_browser_daily, 9c20f009-3717-478a-9ab4-c1fc2eb38c93 ,ecb962f1-80a4-46ce-bf6c-881ec3a23805,ADVANCED_MARKETING_ANALYTICS_DATEBROWSER_DAILY,7,Date Browser Daily
+3952fb94-4987-481d-aa90-7a6c5a9fc0f6,AmazonAds_campaignwise_pivot_cumul, 69442777-651c-45d9-b979-02206c4b2553 ,1ea45647-17d2-4a39-82eb-989fef415889,MARKETING_AMAZON_ADS,2,Amazon Ads
+3952fb94-4987-481d-aa90-7a6c5a9fc0f6,AmazonAds_productwise_pivot_cumul, 1cb2c41f-7a9a-41ef-9e90-eb36e926f549 ,6b0fcc7a-1f5c-48ee-8260-2dae39e9d5eb,MARKETING_AMAZON_ADS,2,Amazon Ads
+3952fb94-4987-481d-aa90-7a6c5a9fc0f6,AmazonAds_tacos, 73633f0b-3968-4d40-b754-27e474fc4213 ,c16946ea-eef8-46e2-ad94-2407686f92d8,MARKETING_AMAZON_ADS,2,Amazon Ads
+3952fb94-4987-481d-aa90-7a6c5a9fc0f6,AmazonAds_Targeting_pbi, 4e4d328f-2690-45a6-bf86-4ec4f7c52076 ,58dd45eb-334d-4a57-828b-7b73ff7e1834,MARKETING_AMAZON_ADS,2,Amazon Ads
+3952fb94-4987-481d-aa90-7a6c5a9fc0f6,AmazonAds_Advertising_pbi, 364c1220-189c-467e-9523-1aaf4ac90148 ,c4475fa8-893c-4d8a-9fc8-10e8cf2ba500,MARKETING_AMAZON_ADS,2,Amazon Ads
+eae49ac5-ca42-472a-b245-dc2fd087f602,date_browser_campaign_daily, cb0db810-0710-47dc-a39d-5d8f1041b7ba ,0b12bf49-f7f5-4acc-99d6-bf1d6b4af6fe,ADVANCED_MARKETING_ANALYTICS_DATEBROWSER_CUSTOM,6,Date Browser Custom
+eae49ac5-ca42-472a-b245-dc2fd087f602,date_browser_daily, 9c20f009-3717-478a-9ab4-c1fc2eb38c93 ,ecb962f1-80a4-46ce-bf6c-881ec3a23805,ADVANCED_MARKETING_ANALYTICS_DATEBROWSER_CUSTOM,6,Date Browser Custom
+f07bda3b-6912-4fb7-bbd4-da259f4adcd4,date_browser_weekly, 8bd595b9-3156-44ce-be77-fa52f42aa0b5 ,28d07352-9bfc-4ebd-8bdf-cc1947f95e6a,ADVANCED_MARKETING_ANALYTICS_DATEBROWSER_WEEKLY,8,Date Browser Weekly
+f07bda3b-6912-4fb7-bbd4-da259f4adcd4,date_browser_campaign_weekly, 9a66314e-d449-47e5-9001-039fb66ba005 ,9251f31f-4b70-4eae-84ed-e0b6174a7d20,ADVANCED_MARKETING_ANALYTICS_DATEBROWSER_WEEKLY,8,Date Browser Weekly
+78c06ee8-4aa0-4868-86cb-92d9f63fe06e,amazon_account_overview_customer_rfm_cumul, ba2c7179-8366-4843-847f-6f0cddeaf97d ,95ee80fc-db3c-4aa4-858c-cd307b25abeb,SALES_ACCOUNT_OVERVIEW_AMAZON,4,Account Overview Amazon
+78c06ee8-4aa0-4868-86cb-92d9f63fe06e,Amazon_account_overview_customer_section_cumul, 75036aad-af6e-4e38-a2ef-53ae4201a212 ,b7a4d8ad-8639-4480-ba6e-516a03085bbf,SALES_ACCOUNT_OVERVIEW_AMAZON,4,Account Overview Amazon
+78c06ee8-4aa0-4868-86cb-92d9f63fe06e,amazon_account_overview_sales_marketing_profit, 305e0346-8ca5-4bf4-8a52-2f883eda7a77 ,a6ee9413-755f-4674-9a3e-efcde9831f43,SALES_ACCOUNT_OVERVIEW_AMAZON,4,Account Overview Amazon
+78c06ee8-4aa0-4868-86cb-92d9f63fe06e,Amazon_account_overview_sales, 7a5b1b59-45b8-46b0-ac9b-3480298a5e8e ,7042b6d1-321a-4820-8815-d32f0158e6ba,SALES_ACCOUNT_OVERVIEW_AMAZON,4,Account Overview Amazon
+78c06ee8-4aa0-4868-86cb-92d9f63fe06e,Amazon_account_overview_listings_cumul, 97d83952-1724-430a-b245-eea1326be6df ,79d1ad28-7cdf-466a-b046-a7f4449b6396,SALES_ACCOUNT_OVERVIEW_AMAZON,4,Account Overview Amazon
+78c06ee8-4aa0-4868-86cb-92d9f63fe06e,amazon_account_overview_product_cumul, efa187bc-f5e5-415a-8f2c-40bf615b2221 ,90a4ef94-11f4-4a07-a30e-b3d206bd3fc4,SALES_ACCOUNT_OVERVIEW_AMAZON,4,Account Overview Amazon
+78c06ee8-4aa0-4868-86cb-92d9f63fe06e,Amazon_account_overview_feedback, 6791d5f4-4ada-44fe-895a-5a582c849fb9 ,406b16a5-245d-4f84-9de1-4450858a5d0f,SALES_ACCOUNT_OVERVIEW_AMAZON,4,Account Overview Amazon
+6604bbe3-8e3b-479d-b3ca-d043e036b731,customer_rfm_segments_cumul, 6e4745aa-82e8-42e2-a1ad-28c2cf5fac27 ,739fd92d-06ba-44ec-87e6-36ad1816034e,CUSTOMER_OVERVIEW,1,Overview
+6604bbe3-8e3b-479d-b3ca-d043e036b731,customer_glance_cltv_cumul, 39631b17-6ffa-486f-8bd2-eb85c45a2a12 ,28dc22ba-86a9-46fd-91b4-d6704a327bd3,CUSTOMER_OVERVIEW,1,Overview
+6604bbe3-8e3b-479d-b3ca-d043e036b731,customer_glance_pbi, b1ac6171-0cd2-409b-afd6-e420c202080a ,d9ff0b1a-c003-459c-ac83-ab3c36c39500,CUSTOMER_OVERVIEW,1,Overview
+6604bbe3-8e3b-479d-b3ca-d043e036b731,customer_cohortwise_pivot_cumul, 462fc1a5-2dc2-46cd-9a31-052e16940456 ,78933a73-ee38-408f-ab80-bdac80f2ee45,CUSTOMER_OVERVIEW,1,Overview
+6604bbe3-8e3b-479d-b3ca-d043e036b731,customer_glance_customer_metrics_pbi, c30154a0-01d3-4ee6-85d4-b3e65663af00 ,7484dcb3-0cf6-48c2-882e-c5917ae6be0a,CUSTOMER_OVERVIEW,1,Overview

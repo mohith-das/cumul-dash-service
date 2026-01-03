@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Tabs</title>
+    <script
+      defer
+      src="https://cdn.luzmo.com/js/luzmo-embed/6.0.0/luzmo-embed.min.js"
+      charset="utf-8"
+    ></script>
+    <style>
+      .tab-content {
+        display: none;
+      }
+      .tab-content.active {
+        display: block;
+      }
+      .tabs {
+        display: flex;
+        justify-content: space-around;
+        cursor: pointer;
+        padding: 10px;
+        background-color: #f0f0f0;
+      }
+      .tab {
+        padding: 10px;
+      }
+      .tab.active {
+        font-weight: bold;
+        background-color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tabs" id="tabsContainer"></div>
+    <div id="tabsContentContainer"></div>
+
+    <script>
+      const LUZMO_API_KEY = "REDACTED";
+      const LUZMO_API_TOKEN = "REDACTED";
+      const LUZMO_APP_SERVER = "https://app.us.luzmo.com";
+      const LUZMO_API_HOST = "https://api.us.luzmo.com";
+
+      const DASHBOARDS = [
+        {
+          id: "ace60aac-8dc0-4477-998d-a4bc4fdc107a",
+          name: "Amazon Ads",
+        },
+        {
+          id: "72da09e1-03a3-4138-ae23-daf4d70407fe",
+          name: "PnL Amazon",
+        },
+        // {
+        //   id: "bae46878-b098-4128-af14-d185b6d958c6",
+        //   name: "Returns",
+        // },
+        // {
+        //   id: "e9d44348-5fb7-411e-b38e-4520d9192345",
+        //   name: "Inventory Amazon",
+        // },
+        // {
+        //   id: "0eb89411-189d-48a0-8df4-b944a7c6a436",
+        //   name: "Customer",
+        // },
+        {
+          id: "f2eb7ed8-6213-4abd-a8f2-66da4ac71361",
+          name: "Overview",
+        },
+        {
+          id: "fd8d58c8-93f1-45e5-8054-d050292000c4",
+          name: "DateBrowser Daily",
+        },
+        {
+          id: "f08ed349-3e75-42ed-923e-f73548b67298",
+          name: "Executive Trends",
+        },
+        // {
+        //   id: "99582ece-ba5d-434d-bc19-c4d2b969e8db",
+        //   name: "Product",
+        // },
+        {
+          id: "46c81036-6350-4e79-8ae6-efcf6ba41c9c",
+          name: "Finance Overview",
+        },
+        {
+          id: "a17484f0-8bc3-413d-9136-ae838d66ce74",
+          name: "DateBrowser Weekly",
+        },
+        {
+          id: "7dc41270-5894-4c63-9e59-92d672c17766",
+          name: "Amazon Listings Performance",
+        },
+        {
+          id: "85226e92-328a-4f84-8bd4-55dd939cb5b5",
+          name: "Lost Spend",
+        },
+        {
+          id: "028321b8-4396-4dde-9fcb-9b9290e6e0d4",
+          name: "Channel Comparison",
+        },
+        {
+          id: "9622da23-f787-4d88-a39a-26072b510038",
+          name: "Account Overview Amazon",
+        },
+        {
+          id: "5abfb3e2-1417-4433-96e7-3a0becb79874",
+          name: "DateBrowser Yearly",
+        },
+        {
+          id: "12f607a1-e331-461b-b3ce-6b35416a2cde",
+          name: "Executive Snapshot",
+        },
+        {
+          id: "c5a9529b-d674-4b1c-b284-d926b76665ea",
+          name: "DateBrowser Custom",
+        },
+        {
+          id: "f665969f-3aff-438d-95a7-6d4c90944fad",
+          name: "DateBrowser Monthly",
+        },
+        // Add more dashboards here
+      ];
+
+      const authorizationProperties = {
+        type: "embed",
+        username: "mohith-embed-user",
+        name: "Mohith",
+        email: "mohith.das@sarasanalytics.com",
+        suborganization: "Luzmo",
+        access: {
+          collections: [
+            {
+              id: "0c226ce8-2cb8-4f80-8a0f-123206d9f743",
+              inheritRights: "use",
+            },
+          ],
+        },
+      };
+
+      const getAuthorizationTokenAndEmbed = async () => {
+        for (let i = 0; i < DASHBOARDS.length; i++) {
+          const dashboardComponent = document.getElementById(
+            `dashboard${i + 1}`
+          );
+          const { id: authorizationKey, token: authorizationToken } =
+            await getAuthorizationToken();
+
+          if (!authorizationKey) {
+            console.error("No authorization key received");
+            return;
+          }
+
+          embedDashboard(
+            authorizationKey,
+            authorizationToken,
+            DASHBOARDS[i].id,
+            dashboardComponent
+          );
+          addFilterEventListener(dashboardComponent);
+        }
+      };
+
+      const getAuthorizationToken = async (filters = []) => {
+        const authorizationRequestBody = {
+          action: "create",
+          version: "0.1.0",
+          key: LUZMO_API_KEY,
+          token: LUZMO_API_TOKEN,
+          properties: authorizationProperties,
+        };
+
+        authorizationRequestBody.properties.filters = filters;
+
+        try {
+          const response = await fetch(
+            LUZMO_API_HOST + "/0.1.0/authorization",
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(authorizationRequestBody),
+            }
+          );
+
+          if (response.status === 200) {
+            const responseData = await response.json();
+            console.log("Response of authorization request:", responseData);
+            return responseData;
+          } else {
+            const responseData = await response.json();
+            console.error("Authorization request failed! Error:", responseData);
+            return null;
+          }
+        } catch (error) {
+          console.error("An error occurred while making the request:", error);
+          return null;
+        }
+      };
+
+      const embedDashboard = (
+        authorizationKey,
+        authorizationToken,
+        dashboardId,
+        dashboardComponent
+      ) => {
+        if (!dashboardComponent) {
+          console.error(
+            `Dashboard with id ${dashboardId} not found in the DOM.`
+          );
+          return;
+        }
+
+        dashboardComponent.appServer = LUZMO_APP_SERVER;
+        dashboardComponent.apiHost = LUZMO_API_HOST;
+        dashboardComponent.authKey = authorizationKey;
+        dashboardComponent.authToken = authorizationToken;
+        dashboardComponent.dashboardId = dashboardId;
+      };
+
+      const initializeTabs = () => {
+        const tabsContainer = document.getElementById("tabsContainer");
+        const tabsContentContainer = document.getElementById(
+          "tabsContentContainer"
+        );
+
+        DASHBOARDS.forEach((dashboard, index) => {
+          // Create tab
+          const tab = document.createElement("div");
+          tab.textContent = dashboard.name;
+          tab.dataset.tab = `tab${index + 1}`;
+          tab.classList.add("tab");
+          if (index === 0) tab.classList.add("active");
+          tabsContainer.appendChild(tab);
+
+          // Create tab content
+          const tabContent = document.createElement("div");
+          tabContent.id = `tab${index + 1}`;
+          tabContent.classList.add("tab-content");
+          if (index === 0) tabContent.classList.add("active");
+
+          const dashboardComponent = document.createElement(
+            "luzmo-embed-dashboard"
+          );
+          dashboardComponent.id = `dashboard${index + 1}`;
+          tabContent.appendChild(dashboardComponent);
+          tabsContentContainer.appendChild(tabContent);
+        });
+
+        const tabs = document.querySelectorAll(".tab");
+        const tabContents = document.querySelectorAll(".tab-content");
+
+        tabs.forEach((tab) => {
+          tab.addEventListener("click", () => {
+            tabs.forEach((t) => t.classList.remove("active"));
+            tab.classList.add("active");
+
+            tabContents.forEach((content) =>
+              content.classList.remove("active")
+            );
+            document.getElementById(tab.dataset.tab).classList.add("active");
+          });
+        });
+      };
+
+      const addFilterEventListener = (dashboardComponent) => {
+        dashboardComponent.addEventListener("changedFilters", async (event) => {
+          const filters = event.detail.data.filters;
+          for (let i = 0; i < DASHBOARDS.length; i++) {
+            const otherDashboardComponent = document.getElementById(
+              `dashboard${i + 1}`
+            );
+            if (otherDashboardComponent !== dashboardComponent) {
+              const { id: authorizationKey, token: authorizationToken } =
+                await getAuthorizationToken(filters);
+              otherDashboardComponent.setAuthorization(
+                authorizationKey,
+                authorizationToken
+              );
+              otherDashboardComponent.refreshData();
+            }
+          }
+        });
+      };
+
+      window.onload = () => {
+        initializeTabs();
+        getAuthorizationTokenAndEmbed();
+      };
+    </script>
+  </body>
+</html>

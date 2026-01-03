@@ -1,0 +1,708 @@
+,dashboard_id,dataset_name,dataset_id
+0,159a623f-be52-40c0-b630-e14ac84979ae,dev_ekos_excel - amazon_account_overview_feedback_masked,77c75100-1520-4c6b-bc1e-654cc040de1a
+1,159a623f-be52-40c0-b630-e14ac84979ae,dev_ekos_excel - Amazon_account_overview_listings_masked,e9794921-1706-40eb-9d5d-ce677d4b7a9b
+2,159a623f-be52-40c0-b630-e14ac84979ae,dev_ekos_excel - amazon_account_overview_customer_rfm_cumul_masked,be70c739-770a-465c-b046-14716f7b4e70
+3,159a623f-be52-40c0-b630-e14ac84979ae,dev_ekos_excel - amazon_account_overview_sales_masked,0788ac99-baa0-4eae-a8d9-f01fe8ae3b79
+4,159a623f-be52-40c0-b630-e14ac84979ae,dev_ekos_excel - amazon_account_overview_customer_section_cumul_masked,0929c274-c6fa-4690-a1c6-9a39053818c7
+5,159a623f-be52-40c0-b630-e14ac84979ae,dev_ekos_excel - amazon_account_overview_listings_cumul_masked,42250832-2918-4c01-88db-0c04f660234e
+6,159a623f-be52-40c0-b630-e14ac84979ae,dev_ekos_excel - amazon_account_overview_product_cumul_masked,3a24929d-5813-4c15-89a1-1bf661bd465f
+7,159a623f-be52-40c0-b630-e14ac84979ae,dev_ekos_excel - amazon_account_overview_sales_marketing_profit_masked,2134deeb-5ddd-4538-b051-4b8ab31bb3a4
+8,3bbe0f69-f95b-4216-b9bd-86f05712c5ba,dev_ekos_excel - amazon_account_overview_customer_rfm_cumul_masked,be70c739-770a-465c-b046-14716f7b4e70
+9,3bbe0f69-f95b-4216-b9bd-86f05712c5ba,dev_ekos_excel - Amazon_account_overview_listings_masked,e9794921-1706-40eb-9d5d-ce677d4b7a9b
+10,3bbe0f69-f95b-4216-b9bd-86f05712c5ba,dev_ekos_excel - amazon_account_overview_product_cumul_masked,3a24929d-5813-4c15-89a1-1bf661bd465f
+11,3bbe0f69-f95b-4216-b9bd-86f05712c5ba,dev_ekos_excel - amazon_account_overview_listings_cumul_masked,42250832-2918-4c01-88db-0c04f660234e
+12,3bbe0f69-f95b-4216-b9bd-86f05712c5ba,dev_ekos_excel - amazon_account_overview_sales_marketing_profit_masked,2134deeb-5ddd-4538-b051-4b8ab31bb3a4
+13,3bbe0f69-f95b-4216-b9bd-86f05712c5ba,dev_ekos_excel - amazon_account_overview_customer_section_cumul_masked,0929c274-c6fa-4690-a1c6-9a39053818c7
+14,3bbe0f69-f95b-4216-b9bd-86f05712c5ba,dev_ekos_excel - amazon_account_overview_sales_masked,0788ac99-baa0-4eae-a8d9-f01fe8ae3b79
+15,3bbe0f69-f95b-4216-b9bd-86f05712c5ba,dev_ekos_excel - amazon_account_overview_feedback_masked,77c75100-1520-4c6b-bc1e-654cc040de1a
+16,54b9bb2d-97ad-4e63-9c2a-eb346d2d0691,dev_ekos_excel - amazon_account_overview_listings_cumul_masked,42250832-2918-4c01-88db-0c04f660234e
+17,54b9bb2d-97ad-4e63-9c2a-eb346d2d0691,dev_ekos_excel - Amazon_account_overview_listings_masked,e9794921-1706-40eb-9d5d-ce677d4b7a9b
+18,54b9bb2d-97ad-4e63-9c2a-eb346d2d0691,dev_ekos_excel - amazon_account_overview_customer_section_cumul_masked,0929c274-c6fa-4690-a1c6-9a39053818c7
+19,54b9bb2d-97ad-4e63-9c2a-eb346d2d0691,dev_ekos_excel - amazon_account_overview_product_cumul_masked,3a24929d-5813-4c15-89a1-1bf661bd465f
+20,54b9bb2d-97ad-4e63-9c2a-eb346d2d0691,dev_ekos_excel - amazon_account_overview_sales_masked,0788ac99-baa0-4eae-a8d9-f01fe8ae3b79
+21,54b9bb2d-97ad-4e63-9c2a-eb346d2d0691,dev_ekos_excel - amazon_account_overview_customer_rfm_cumul_masked,be70c739-770a-465c-b046-14716f7b4e70
+22,54b9bb2d-97ad-4e63-9c2a-eb346d2d0691,dev_ekos_excel - amazon_account_overview_feedback_masked,77c75100-1520-4c6b-bc1e-654cc040de1a
+23,54b9bb2d-97ad-4e63-9c2a-eb346d2d0691,dev_ekos_excel - amazon_account_overview_sales_marketing_profit_masked,2134deeb-5ddd-4538-b051-4b8ab31bb3a4
+24,cb1d074f-40c7-4b06-afde-0f6299e30cb0,dev_ekos_excel - Amazon_account_overview_listings_masked,e9794921-1706-40eb-9d5d-ce677d4b7a9b
+25,cb1d074f-40c7-4b06-afde-0f6299e30cb0,dev_ekos_excel - amazon_account_overview_customer_section_cumul_masked,0929c274-c6fa-4690-a1c6-9a39053818c7
+26,cb1d074f-40c7-4b06-afde-0f6299e30cb0,dev_ekos_excel - amazon_account_overview_product_cumul_masked,3a24929d-5813-4c15-89a1-1bf661bd465f
+27,cb1d074f-40c7-4b06-afde-0f6299e30cb0,dev_ekos_excel - amazon_account_overview_listings_cumul_masked,42250832-2918-4c01-88db-0c04f660234e
+28,cb1d074f-40c7-4b06-afde-0f6299e30cb0,dev_ekos_excel - amazon_account_overview_feedback_masked,77c75100-1520-4c6b-bc1e-654cc040de1a
+29,cb1d074f-40c7-4b06-afde-0f6299e30cb0,dev_ekos_excel - amazon_account_overview_sales_marketing_profit_masked,2134deeb-5ddd-4538-b051-4b8ab31bb3a4
+30,cb1d074f-40c7-4b06-afde-0f6299e30cb0,dev_ekos_excel - amazon_account_overview_sales_masked,0788ac99-baa0-4eae-a8d9-f01fe8ae3b79
+31,cb1d074f-40c7-4b06-afde-0f6299e30cb0,dev_ekos_excel - amazon_account_overview_customer_rfm_cumul_masked,be70c739-770a-465c-b046-14716f7b4e70
+32,78c06ee8-4aa0-4868-86cb-92d9f63fe06e,kbrands_3425_prod_presentation - amazon_account_overview_customer_rfm_cumul,95ee80fc-db3c-4aa4-858c-cd307b25abeb
+33,78c06ee8-4aa0-4868-86cb-92d9f63fe06e,kbrands_3425_prod_presentation - Amazon_account_overview_customer_section_cumul,b7a4d8ad-8639-4480-ba6e-516a03085bbf
+34,78c06ee8-4aa0-4868-86cb-92d9f63fe06e,kbrands_3425_prod_presentation - amazon_account_overview_sales_marketing_profit,a6ee9413-755f-4674-9a3e-efcde9831f43
+35,78c06ee8-4aa0-4868-86cb-92d9f63fe06e,kbrands_3425_prod_presentation - Amazon_account_overview_sales,7042b6d1-321a-4820-8815-d32f0158e6ba
+36,78c06ee8-4aa0-4868-86cb-92d9f63fe06e,kbrands_3425_prod_presentation - Amazon_account_overview_listings_cumul,79d1ad28-7cdf-466a-b046-a7f4449b6396
+37,78c06ee8-4aa0-4868-86cb-92d9f63fe06e,kbrands_3425_prod_presentation - amazon_account_overview_product_cumul,90a4ef94-11f4-4a07-a30e-b3d206bd3fc4
+38,78c06ee8-4aa0-4868-86cb-92d9f63fe06e,kbrands_3425_prod_presentation - Amazon_account_overview_feedback,406b16a5-245d-4f84-9de1-4450858a5d0f
+39,5ae463ae-963c-412f-9fb5-87593433f0e9,dev_ekos_excel - amazon_account_overview_customer_section_cumul_masked,0929c274-c6fa-4690-a1c6-9a39053818c7
+40,5ae463ae-963c-412f-9fb5-87593433f0e9,dev_ekos_excel - Amazon_account_overview_listings_masked,e9794921-1706-40eb-9d5d-ce677d4b7a9b
+41,5ae463ae-963c-412f-9fb5-87593433f0e9,dev_ekos_excel - amazon_account_overview_product_cumul_masked,3a24929d-5813-4c15-89a1-1bf661bd465f
+42,5ae463ae-963c-412f-9fb5-87593433f0e9,dev_ekos_excel - amazon_account_overview_listings_cumul_masked,42250832-2918-4c01-88db-0c04f660234e
+43,5ae463ae-963c-412f-9fb5-87593433f0e9,dev_ekos_excel - amazon_account_overview_feedback_masked,77c75100-1520-4c6b-bc1e-654cc040de1a
+44,5ae463ae-963c-412f-9fb5-87593433f0e9,dev_ekos_excel - amazon_account_overview_sales_marketing_profit_masked,2134deeb-5ddd-4538-b051-4b8ab31bb3a4
+45,5ae463ae-963c-412f-9fb5-87593433f0e9,dev_ekos_excel - amazon_account_overview_sales_masked,0788ac99-baa0-4eae-a8d9-f01fe8ae3b79
+46,5ae463ae-963c-412f-9fb5-87593433f0e9,dev_ekos_excel - amazon_account_overview_customer_rfm_cumul_masked,be70c739-770a-465c-b046-14716f7b4e70
+47,796267ed-2a63-4916-8d0c-36a789088fb9,godirectinc_3670_prod_presentation - amazon_account_overview_product_cumul,efa187bc-f5e5-415a-8f2c-40bf615b2221
+48,796267ed-2a63-4916-8d0c-36a789088fb9,godirectinc_3670_prod_presentation - Amazon_account_overview_customer_section_cumul,75036aad-af6e-4e38-a2ef-53ae4201a212
+49,796267ed-2a63-4916-8d0c-36a789088fb9,godirectinc_3670_prod_presentation - Amazon_account_overview_listings_cumul,97d83952-1724-430a-b245-eea1326be6df
+50,796267ed-2a63-4916-8d0c-36a789088fb9,godirectinc_3670_prod_presentation - amazon_account_overview_customer_rfm_cumul,ba2c7179-8366-4843-847f-6f0cddeaf97d
+51,796267ed-2a63-4916-8d0c-36a789088fb9,godirectinc_3670_prod_presentation - Amazon_account_overview_feedback,6791d5f4-4ada-44fe-895a-5a582c849fb9
+52,796267ed-2a63-4916-8d0c-36a789088fb9,godirectinc_3670_prod_presentation - amazon_account_overview_sales_marketing_profit,305e0346-8ca5-4bf4-8a52-2f883eda7a77
+53,796267ed-2a63-4916-8d0c-36a789088fb9,godirectinc_3670_prod_presentation - Amazon_account_overview_sales,7a5b1b59-45b8-46b0-ac9b-3480298a5e8e
+54,a2d338c5-ad95-4bdb-8ac9-112f18ec9f8a,zocoproducts_3675_prod_presentation - amazon_account_overview_product_cumul,f43c3ef5-c87d-4234-bde8-375adc913057
+55,a2d338c5-ad95-4bdb-8ac9-112f18ec9f8a,zocoproducts_3675_prod_presentation - Amazon_account_overview_listings_cumul,6a8cb9ad-4757-4ed4-8e2a-8876a4179f8c
+56,a2d338c5-ad95-4bdb-8ac9-112f18ec9f8a,zocoproducts_3675_prod_presentation - Amazon_account_overview_sales,f42b1a1f-b8bb-42f5-9b70-10d5e985f694
+57,a2d338c5-ad95-4bdb-8ac9-112f18ec9f8a,zocoproducts_3675_prod_presentation - amazon_account_overview_customer_rfm_cumul,1e5e59c8-027a-4f08-a14a-aebd597c4442
+58,a2d338c5-ad95-4bdb-8ac9-112f18ec9f8a,zocoproducts_3675_prod_presentation - Amazon_account_overview_customer_section_cumul,a15f3190-f81f-4981-9c30-3768c74d60e2
+59,a2d338c5-ad95-4bdb-8ac9-112f18ec9f8a,zocoproducts_3675_prod_presentation - Amazon_account_overview_feedback,b74d9b21-e168-4d3c-9846-66e06a9398fd
+60,a2d338c5-ad95-4bdb-8ac9-112f18ec9f8a,zocoproducts_3675_prod_presentation - amazon_account_overview_sales_marketing_profit,d8a83130-fdb5-4215-b25b-616ec8dd4790
+61,de39144c-b03b-4c12-8a5d-25e8e0829e64,buffabrandmarketing_3747_prod_presentation - amazon_account_overview_product_cumul,75649f35-b923-4513-bec5-923862209a3e
+62,de39144c-b03b-4c12-8a5d-25e8e0829e64,buffabrandmarketing_3747_prod_presentation - Amazon_account_overview_feedback,87d8f2b5-e934-47dd-8396-6154bb5929fe
+63,de39144c-b03b-4c12-8a5d-25e8e0829e64,buffabrandmarketing_3747_prod_presentation - Amazon_account_overview_sales,9ac320dd-bc24-42fa-92e0-77a527b46610
+64,de39144c-b03b-4c12-8a5d-25e8e0829e64,buffabrandmarketing_3747_prod_presentation - Amazon_account_overview_customer_section_cumul,44463487-eaed-4b8f-83e5-782b582ef13e
+65,de39144c-b03b-4c12-8a5d-25e8e0829e64,buffabrandmarketing_3747_prod_presentation - amazon_account_overview_sales_marketing_profit,313433d0-e5d8-4636-9b66-88adff36c344
+66,de39144c-b03b-4c12-8a5d-25e8e0829e64,buffabrandmarketing_3747_prod_presentation - Amazon_account_overview_listings_cumul,2bb48fed-5bae-4bdd-80ef-eb4062a180b4
+67,de39144c-b03b-4c12-8a5d-25e8e0829e64,buffabrandmarketing_3747_prod_presentation - amazon_account_overview_customer_rfm_cumul,01a37f1c-a1ed-4bf4-9a08-0f982643bb7b
+68,f7cb0c62-08ec-4270-a83c-0d74d5f18509,amerify_3768_prod_presentation - Amazon_account_overview_customer_section_cumul,2ea0bf85-90bc-40bf-a9ea-b649bfd07710
+69,f7cb0c62-08ec-4270-a83c-0d74d5f18509,amerify_3768_prod_presentation - Amazon_account_overview_sales,1cca317d-d4aa-41a3-9de7-ed4e84edbe57
+70,f7cb0c62-08ec-4270-a83c-0d74d5f18509,amerify_3768_prod_presentation - Amazon_account_overview_feedback,f9ed3c95-52b7-4fb8-9033-8a65495b9496
+71,f7cb0c62-08ec-4270-a83c-0d74d5f18509,amerify_3768_prod_presentation - amazon_account_overview_sales_marketing_profit,f2f5a70d-10a2-4d1d-bd23-edbd99c1b0f3
+72,f7cb0c62-08ec-4270-a83c-0d74d5f18509,amerify_3768_prod_presentation - Amazon_account_overview_listings_cumul,abc42dca-003d-4729-a78d-93cc99fcd896
+73,f7cb0c62-08ec-4270-a83c-0d74d5f18509,amerify_3768_prod_presentation - amazon_account_overview_product_cumul,8aad287a-404d-4f0e-b44e-fa4e0cb52992
+74,f7cb0c62-08ec-4270-a83c-0d74d5f18509,amerify_3768_prod_presentation - amazon_account_overview_customer_rfm_cumul,03ae120e-800c-4dc4-8a6c-3faf5429df28
+75,8ab77882-3611-45a0-9a5e-fb861c2eaa79,dev_edm - amazon_account_overview_sales_marketing_profit,57a4f81a-004e-4a6c-8dc8-6b2bd531e722
+76,8ab77882-3611-45a0-9a5e-fb861c2eaa79,dev_edm - Amazon_account_overview_sales,8c868972-539a-4f79-8154-45a6bbf256aa
+77,8ab77882-3611-45a0-9a5e-fb861c2eaa79,dev_edm_prsn - Amazon_account_overview_customer_section_cumul,d60d2de5-59ae-438e-beee-77a1c7f58bcd
+78,8ab77882-3611-45a0-9a5e-fb861c2eaa79,dev_edm - Amazon_account_overview_listings_cumul,29f8f324-d19b-4701-9911-04c57145e5a9
+79,8ab77882-3611-45a0-9a5e-fb861c2eaa79,dev_edm - amazon_account_overview_customer_rfm_cumul,1cf4185b-d247-4a26-a90d-8d6661904d84
+80,8ab77882-3611-45a0-9a5e-fb861c2eaa79,dev_edm - amazon_account_overview_product_cumul,fa864a6e-9744-4bbe-93a3-f58f56521564
+81,8ab77882-3611-45a0-9a5e-fb861c2eaa79,dev_edm - Amazon_account_overview_feedback,bc2ac8be-6709-4861-9a76-245ebc48d61e
+82,23f6ad23-7cda-4600-b036-fd1fd4a998ee,underdoggamesllc_3767_prod_presentation - amazon_account_overview_product_cumul,73a3554b-72bf-48aa-9330-c9d42c2d9a75
+83,23f6ad23-7cda-4600-b036-fd1fd4a998ee,underdoggamesllc_3767_prod_presentation - Amazon_account_overview_customer_section_cumul,4e07c124-1369-455f-917d-8bfb835f020c
+84,23f6ad23-7cda-4600-b036-fd1fd4a998ee,underdoggamesllc_3767_prod_presentation - Amazon_account_overview_sales,7851403e-87af-47c6-a9d1-d15700991277
+85,23f6ad23-7cda-4600-b036-fd1fd4a998ee,underdoggamesllc_3767_prod_presentation - amazon_account_overview_customer_rfm_cumul,f079b1d8-53d9-41a3-82c2-30a3f12406ac
+86,23f6ad23-7cda-4600-b036-fd1fd4a998ee,underdoggamesllc_3767_prod_presentation - amazon_account_overview_sales_marketing_profit,8b2aef06-3acd-42f8-8ef7-bd9636cd1960
+87,23f6ad23-7cda-4600-b036-fd1fd4a998ee,underdoggamesllc_3767_prod_presentation - Amazon_account_overview_feedback,3cf00faa-9c4c-417e-84f6-72ed60da91b3
+88,23f6ad23-7cda-4600-b036-fd1fd4a998ee,underdoggamesllc_3767_prod_presentation - Amazon_account_overview_listings_cumul,b2492624-923e-4be1-98ab-e26e4ead238b
+89,10dbc055-0621-4905-a7c9-a845f51f553e,clearads_3854_prod_presentation - amazon_account_overview_product_cumul,f3d8049f-a615-4e17-ac46-12ee58f03d58
+90,10dbc055-0621-4905-a7c9-a845f51f553e,clearads_3854_prod_presentation - Amazon_account_overview_listings_cumul,b96d8287-7f26-47d6-8539-75fe47c3bdaf
+91,10dbc055-0621-4905-a7c9-a845f51f553e,clearads_3854_prod_presentation - Amazon_account_overview_sales,803a8099-49b6-4d1c-9891-248bd129790b
+92,10dbc055-0621-4905-a7c9-a845f51f553e,clearads_3854_prod_presentation - Amazon_account_overview_customer_section_cumul,9c416356-08ac-418d-bdee-df51a5912bdb
+93,10dbc055-0621-4905-a7c9-a845f51f553e,clearads_3854_prod_presentation - Amazon_account_overview_feedback,2803dcee-b906-4355-b814-050867407ec5
+94,10dbc055-0621-4905-a7c9-a845f51f553e,clearads_3854_prod_presentation - amazon_account_overview_sales_marketing_profit,9949a023-32a0-4e3a-9337-49e1e1ff761c
+95,10dbc055-0621-4905-a7c9-a845f51f553e,clearads_3854_prod_presentation - amazon_account_overview_customer_rfm_cumul,307f346d-fde4-41da-8e62-3748f3eab088
+96,ab5d9c92-a3e9-4c7f-b4be-6fa0c1ace442,aadar_3759_prod_presentation - Amazon_account_overview_listings_cumul,8291d9bf-25c8-4e5a-a20a-e7d7452baaf8
+97,ab5d9c92-a3e9-4c7f-b4be-6fa0c1ace442,aadar_3759_prod_presentation - amazon_account_overview_sales_marketing_profit,9de0dd96-285e-4967-8b62-759806d92775
+98,ab5d9c92-a3e9-4c7f-b4be-6fa0c1ace442,aadar_3759_prod_presentation - amazon_account_overview_product_cumul,16c98c30-757a-4928-bd87-05aa2140b17b
+99,ab5d9c92-a3e9-4c7f-b4be-6fa0c1ace442,aadar_3759_prod_presentation - Amazon_account_overview_feedback,3b77c0ca-e839-48cb-aa03-5cddfa9c1f4a
+100,ab5d9c92-a3e9-4c7f-b4be-6fa0c1ace442,aadar_3759_prod_presentation - amazon_account_overview_customer_rfm_cumul,caa4f90a-d6f2-4dce-a35f-277e86482498
+101,ab5d9c92-a3e9-4c7f-b4be-6fa0c1ace442,aadar_3759_prod_presentation - Amazon_account_overview_customer_section_cumul,8ee4c623-4854-466f-9281-9ffd3cd5957a
+102,ab5d9c92-a3e9-4c7f-b4be-6fa0c1ace442,aadar_3759_prod_presentation - Amazon_account_overview_sales,9147caf8-ddeb-4c48-b099-b4facf41a296
+103,da044269-83c0-4e11-b893-b761531baf10,snowballpartners_3878_prod_presentation - Amazon_account_overview_customer_section_cumul,a78807c8-0c36-46d6-b2d8-1c92212617c8
+104,da044269-83c0-4e11-b893-b761531baf10,snowballpartners_3878_prod_presentation - Amazon_account_overview_sales,2b55cd1a-b6be-4402-9923-fabc476f6a47
+105,da044269-83c0-4e11-b893-b761531baf10,snowballpartners_3878_prod_presentation - Amazon_account_overview_feedback,ab1976b2-84b9-4880-8cb8-140594c44001
+106,da044269-83c0-4e11-b893-b761531baf10,snowballpartners_3878_prod_presentation - Amazon_account_overview_listings_cumul,9255fd7a-e614-405b-8683-1c85e52ec994
+107,da044269-83c0-4e11-b893-b761531baf10,snowballpartners_3878_prod_presentation - amazon_account_overview_sales_marketing_profit,dbdf132e-5b97-405a-9998-165217a940e3
+108,da044269-83c0-4e11-b893-b761531baf10,snowballpartners_3878_prod_presentation - amazon_account_overview_product_cumul,d77e8f1f-488a-4bf9-9730-6816d108424c
+109,da044269-83c0-4e11-b893-b761531baf10,snowballpartners_3878_prod_presentation - amazon_account_overview_customer_rfm_cumul,b96af522-31b5-4adc-bb6d-ebbfe38ada8a
+110,dbab9061-3de5-4930-9a2d-ef39b2824643,dev_ekos_presentation - amazon_account_overview_product_cumul,9ce292e7-b3d2-4d77-a276-3200e3256f15
+111,dbab9061-3de5-4930-9a2d-ef39b2824643,dev_ekos_excel - Amazon_account_overview_listings_masked,e9794921-1706-40eb-9d5d-ce677d4b7a9b
+112,dbab9061-3de5-4930-9a2d-ef39b2824643,dev_ekos_excel - amazon_account_overview_customer_rfm_cumul_masked,be70c739-770a-465c-b046-14716f7b4e70
+113,dbab9061-3de5-4930-9a2d-ef39b2824643,dev_ekos_excel - amazon_account_overview_feedback_masked,77c75100-1520-4c6b-bc1e-654cc040de1a
+114,dbab9061-3de5-4930-9a2d-ef39b2824643,dev_ekos_excel - amazon_account_overview_listings_cumul_masked,42250832-2918-4c01-88db-0c04f660234e
+115,dbab9061-3de5-4930-9a2d-ef39b2824643,dev_ekos_excel - amazon_account_overview_sales_marketing_profit_masked,2134deeb-5ddd-4538-b051-4b8ab31bb3a4
+116,dbab9061-3de5-4930-9a2d-ef39b2824643,dev_ekos_excel - amazon_account_overview_sales_masked,0788ac99-baa0-4eae-a8d9-f01fe8ae3b79
+117,dbab9061-3de5-4930-9a2d-ef39b2824643,dev_ekos_excel - amazon_account_overview_customer_section_cumul_masked,0929c274-c6fa-4690-a1c6-9a39053818c7
+118,445ee57a-63c6-4812-ab89-b21f005e2dae,dev_ekos_excel - amazon_account_overview_customer_rfm_cumul_masked,be70c739-770a-465c-b046-14716f7b4e70
+119,445ee57a-63c6-4812-ab89-b21f005e2dae,dev_ekos_excel - Amazon_account_overview_listings_masked,e9794921-1706-40eb-9d5d-ce677d4b7a9b
+120,445ee57a-63c6-4812-ab89-b21f005e2dae,dev_ekos_presentation - amazon_account_overview_product_cumul,9ce292e7-b3d2-4d77-a276-3200e3256f15
+121,445ee57a-63c6-4812-ab89-b21f005e2dae,dev_ekos_excel - amazon_account_overview_listings_cumul_masked,42250832-2918-4c01-88db-0c04f660234e
+122,445ee57a-63c6-4812-ab89-b21f005e2dae,dev_ekos_excel - amazon_account_overview_sales_marketing_profit_masked,2134deeb-5ddd-4538-b051-4b8ab31bb3a4
+123,445ee57a-63c6-4812-ab89-b21f005e2dae,dev_ekos_excel - amazon_account_overview_customer_section_cumul_masked,0929c274-c6fa-4690-a1c6-9a39053818c7
+124,445ee57a-63c6-4812-ab89-b21f005e2dae,dev_ekos_excel - amazon_account_overview_sales_masked,0788ac99-baa0-4eae-a8d9-f01fe8ae3b79
+125,445ee57a-63c6-4812-ab89-b21f005e2dae,dev_ekos_excel - amazon_account_overview_feedback_masked,77c75100-1520-4c6b-bc1e-654cc040de1a
+126,3f291356-50e7-4687-a0f4-a035776736a5,dev_ekos_excel - amazon_account_overview_customer_rfm_cumul_masked,be70c739-770a-465c-b046-14716f7b4e70
+127,3f291356-50e7-4687-a0f4-a035776736a5,dev_ekos_excel - Amazon_account_overview_listings_masked,e9794921-1706-40eb-9d5d-ce677d4b7a9b
+128,3f291356-50e7-4687-a0f4-a035776736a5,dev_ekos_presentation - amazon_account_overview_product_cumul,9ce292e7-b3d2-4d77-a276-3200e3256f15
+129,3f291356-50e7-4687-a0f4-a035776736a5,dev_ekos_excel - amazon_account_overview_listings_cumul_masked,42250832-2918-4c01-88db-0c04f660234e
+130,3f291356-50e7-4687-a0f4-a035776736a5,dev_ekos_excel - amazon_account_overview_sales_marketing_profit_masked,2134deeb-5ddd-4538-b051-4b8ab31bb3a4
+131,3f291356-50e7-4687-a0f4-a035776736a5,dev_ekos_excel - amazon_account_overview_customer_section_cumul_masked,0929c274-c6fa-4690-a1c6-9a39053818c7
+132,3f291356-50e7-4687-a0f4-a035776736a5,dev_ekos_excel - amazon_account_overview_sales_masked,0788ac99-baa0-4eae-a8d9-f01fe8ae3b79
+133,3f291356-50e7-4687-a0f4-a035776736a5,dev_ekos_excel - amazon_account_overview_feedback_masked,77c75100-1520-4c6b-bc1e-654cc040de1a
+134,04f96e78-fd2c-43cc-8b76-ce542e3d2b9d,dev_ekos_excel - amazon_account_overview_customer_section_cumul_masked,0929c274-c6fa-4690-a1c6-9a39053818c7
+135,04f96e78-fd2c-43cc-8b76-ce542e3d2b9d,dev_ekos_excel - Amazon_account_overview_listings_masked,e9794921-1706-40eb-9d5d-ce677d4b7a9b
+136,04f96e78-fd2c-43cc-8b76-ce542e3d2b9d,dev_ekos_presentation - amazon_account_overview_product_cumul,9ce292e7-b3d2-4d77-a276-3200e3256f15
+137,04f96e78-fd2c-43cc-8b76-ce542e3d2b9d,dev_ekos_excel - amazon_account_overview_listings_cumul_masked,42250832-2918-4c01-88db-0c04f660234e
+138,04f96e78-fd2c-43cc-8b76-ce542e3d2b9d,dev_ekos_excel - amazon_account_overview_feedback_masked,77c75100-1520-4c6b-bc1e-654cc040de1a
+139,04f96e78-fd2c-43cc-8b76-ce542e3d2b9d,dev_ekos_excel - amazon_account_overview_sales_marketing_profit_masked,2134deeb-5ddd-4538-b051-4b8ab31bb3a4
+140,04f96e78-fd2c-43cc-8b76-ce542e3d2b9d,dev_ekos_excel - amazon_account_overview_sales_masked,0788ac99-baa0-4eae-a8d9-f01fe8ae3b79
+141,04f96e78-fd2c-43cc-8b76-ce542e3d2b9d,dev_ekos_excel - amazon_account_overview_customer_rfm_cumul_masked,be70c739-770a-465c-b046-14716f7b4e70
+142,13b87b46-24ad-42c3-95ee-de5ba08f4b22,dev_ekos_excel - amazon_account_overview_listings_cumul_masked,42250832-2918-4c01-88db-0c04f660234e
+143,13b87b46-24ad-42c3-95ee-de5ba08f4b22,dev_ekos_excel - Amazon_account_overview_listings_masked,e9794921-1706-40eb-9d5d-ce677d4b7a9b
+144,13b87b46-24ad-42c3-95ee-de5ba08f4b22,dev_ekos_excel - amazon_account_overview_customer_section_cumul_masked,0929c274-c6fa-4690-a1c6-9a39053818c7
+145,13b87b46-24ad-42c3-95ee-de5ba08f4b22,dev_ekos_excel - amazon_account_overview_sales_masked,0788ac99-baa0-4eae-a8d9-f01fe8ae3b79
+146,13b87b46-24ad-42c3-95ee-de5ba08f4b22,dev_ekos_excel - amazon_account_overview_customer_rfm_cumul_masked,be70c739-770a-465c-b046-14716f7b4e70
+147,13b87b46-24ad-42c3-95ee-de5ba08f4b22,dev_ekos_excel - amazon_account_overview_feedback_masked,77c75100-1520-4c6b-bc1e-654cc040de1a
+148,13b87b46-24ad-42c3-95ee-de5ba08f4b22,dev_ekos_presentation - amazon_account_overview_product_cumul,9ce292e7-b3d2-4d77-a276-3200e3256f15
+149,13b87b46-24ad-42c3-95ee-de5ba08f4b22,dev_ekos_excel - amazon_account_overview_sales_marketing_profit_masked,2134deeb-5ddd-4538-b051-4b8ab31bb3a4
+150,538693fb-5d9e-4b6a-8dca-aae356af9584,katequinnorganics_3742_prod_presentation - shopify_account_overview_customer_cumul,862d710a-c7df-4e09-890b-224e5bb51670
+151,538693fb-5d9e-4b6a-8dca-aae356af9584,katequinnorganics_3742_prod_presentation - shopify_account_overview_customer_rfm_cumul,241547ab-9f81-46aa-be18-5f7553e3a2fb
+152,538693fb-5d9e-4b6a-8dca-aae356af9584,katequinnorganics_3742_prod_presentation - shopify_account_overview_product_cumul,8d7f21e2-c63a-4ece-8727-459dc06e83d6
+153,538693fb-5d9e-4b6a-8dca-aae356af9584,katequinnorganics_3742_prod_presentation - Shopify_Account_Overview_Sales,f9405288-b200-4bed-8d31-72610272b198
+154,538693fb-5d9e-4b6a-8dca-aae356af9584,katequinnorganics_3742_prod_presentation - Shopify_Account_Overview_Sales_Marketing_Profits,1934a93a-fdbc-4688-bbfa-b40067f3af9c
+155,2d683ac4-5296-41b6-b6f2-f2a752fcf71b,dev_edm_prsn - shopify_account_overview_product_cumul,69c82aa4-73c7-4608-aa8e-ce331e18dc4e
+156,2d683ac4-5296-41b6-b6f2-f2a752fcf71b,dev_edm_prsn - shopify_account_overview_customer_rfm_cumul,4d2638ec-965c-4119-a680-a0248b37560d
+157,2d683ac4-5296-41b6-b6f2-f2a752fcf71b,dev_edm_prsn - Shopify_Account_Overview_Sales,6b1fb25a-9e46-4722-be52-803ba37a947e
+158,2d683ac4-5296-41b6-b6f2-f2a752fcf71b,dev_edm_prsn - Shopify_Account_Overview_Sales_Marketing_Profits,3e530a07-e165-44ff-9b23-be030360b8cb
+159,2d683ac4-5296-41b6-b6f2-f2a752fcf71b,dev_edm_prsn - shopify_account_overview_customer_cumul,5660f5ea-87f4-4aa8-983b-012622951a17
+160,a72f9e2b-796c-4556-b1f1-b04a514e32be,underdoggamesllc_3767_prod_presentation - Shopify_Account_Overview_Sales,1db6d9cc-e729-4964-8640-8b9282cf2228
+161,a72f9e2b-796c-4556-b1f1-b04a514e32be,underdoggamesllc_3767_prod_presentation - Shopify_Account_Overview_Sales_Marketing_Profits,ad092e49-6c11-4d14-9ff9-5e406e6f8617
+162,a72f9e2b-796c-4556-b1f1-b04a514e32be,underdoggamesllc_3767_prod_presentation - shopify_account_overview_customer_rfm_cumul,f8f4925f-62a8-4ef0-9258-2777bd88510e
+163,a72f9e2b-796c-4556-b1f1-b04a514e32be,underdoggamesllc_3767_prod_presentation - shopify_account_overview_customer_cumul,8dcf1698-03a7-420a-8ded-ec648991d8b2
+164,a72f9e2b-796c-4556-b1f1-b04a514e32be,underdoggamesllc_3767_prod_presentation - shopify_account_overview_product_cumul,ceed5a39-3524-4f51-8ba5-43e9fda42730
+165,31fc0635-90c8-4a25-ae00-499eecaa7ddd,AmazonAds_Targeting_Masked,297cbc05-485c-4b37-bf4a-b6c2975b19f6
+166,31fc0635-90c8-4a25-ae00-499eecaa7ddd,AmazonAds_Advertising_Masked,7d003e3c-61a6-493a-b1a5-eadd9584215f
+167,31fc0635-90c8-4a25-ae00-499eecaa7ddd,AmazonAds_Campaignwise_Pivot,607e3ec5-ac7e-4a2d-95b0-13f91933cb29
+168,31fc0635-90c8-4a25-ae00-499eecaa7ddd,AmazonAds_Productwise_Pivot,bccd4b64-fd90-49e9-ba5b-3d7c53d1f531
+169,31fc0635-90c8-4a25-ae00-499eecaa7ddd,AmazonAds_Tacos,f47ef371-7618-40ac-9967-dba7d0553a9f
+170,78253703-9f62-4cb9-8f8e-6bea9589a3c3,voyageurgroup_3722_prod_presentation - AmazonAds_Advertising_pbi,569987fe-2817-468a-93e9-afcc0b54edc9
+171,78253703-9f62-4cb9-8f8e-6bea9589a3c3,voyageurgroup_3722_prod_presentation - AmazonAds_campaignwise_pivot_cumul,6a90de21-2328-463c-b3ad-7eecc3213d61
+172,78253703-9f62-4cb9-8f8e-6bea9589a3c3,voyageurgroup_3722_prod_presentation - AmazonAds_productwise_pivot_cumul,af219860-eec3-4734-a16a-9d713547f7f9
+173,78253703-9f62-4cb9-8f8e-6bea9589a3c3,voyageurgroup_3722_prod_presentation - AmazonAds_tacos,ab0a71b6-97c4-4017-8144-66b893d37245
+174,78253703-9f62-4cb9-8f8e-6bea9589a3c3,voyageurgroup_3722_prod_presentation - AmazonAds_Targeting_pbi,b2bbd0cc-0577-44f6-ac29-0e9f3cfce050
+175,01140ff3-41c0-4fcf-9c00-b078009a261b,buffabrandmarketing_3747_prod_presentation - AmazonAds_campaignwise_pivot_cumul,47c5e31f-43c3-4d94-bf22-4ee4f669dda5
+176,01140ff3-41c0-4fcf-9c00-b078009a261b,buffabrandmarketing_3747_prod_presentation - AmazonAds_Targeting_pbi,6162ff7b-0d5c-41d2-805c-7c514faccdaf
+177,01140ff3-41c0-4fcf-9c00-b078009a261b,buffabrandmarketing_3747_prod_presentation - AmazonAds_Advertising_pbi,09f34e82-61b0-41d9-8703-405ac6798b82
+178,01140ff3-41c0-4fcf-9c00-b078009a261b,buffabrandmarketing_3747_prod_presentation - AmazonAds_tacos,cf531141-3b93-45f4-bc5b-71b4bd513fc0
+179,01140ff3-41c0-4fcf-9c00-b078009a261b,buffabrandmarketing_3747_prod_presentation - AmazonAds_productwise_pivot_cumul,94fe087a-3bbc-4bba-8dd8-36741473d301
+180,40dd89d2-b0ff-49ee-b25d-6b8e2be78ee3,FacebookAds_campaignwise_pivot_cumul_masked,862951de-6869-4c5c-89cd-3c4e168e6f30
+181,40dd89d2-b0ff-49ee-b25d-6b8e2be78ee3,FacebookAds_Advertising_masked,f9408566-03ab-44f5-881f-09f5491cbb7c
+182,02255e36-5d18-42bc-85db-f004455fb596,FacebookAds_campaignwise_pivot_cumul_masked,862951de-6869-4c5c-89cd-3c4e168e6f30
+183,02255e36-5d18-42bc-85db-f004455fb596,FacebookAds_Advertising_masked,f9408566-03ab-44f5-881f-09f5491cbb7c
+184,94a1a618-ed36-47b6-8c57-8db8224fe86e,FacebookAds_campaignwise_pivot_cumul_masked,862951de-6869-4c5c-89cd-3c4e168e6f30
+185,94a1a618-ed36-47b6-8c57-8db8224fe86e,FacebookAds_Advertising_masked,f9408566-03ab-44f5-881f-09f5491cbb7c
+186,d5773e71-4126-4f54-b634-473147d462b7,FacebookAds_campaignwise_pivot_cumul_masked,862951de-6869-4c5c-89cd-3c4e168e6f30
+187,d5773e71-4126-4f54-b634-473147d462b7,FacebookAds_Advertising_masked,f9408566-03ab-44f5-881f-09f5491cbb7c
+188,25822090-6db4-4810-8736-458d7be73349,FacebookAds_campaignwise_pivot_cumul_masked,862951de-6869-4c5c-89cd-3c4e168e6f30
+189,25822090-6db4-4810-8736-458d7be73349,FacebookAds_Advertising_masked,f9408566-03ab-44f5-881f-09f5491cbb7c
+190,8ee51980-664e-4425-bfdc-2d46c190dd4f,FacebookAds_campaignwise_pivot_cumul_masked,862951de-6869-4c5c-89cd-3c4e168e6f30
+191,8ee51980-664e-4425-bfdc-2d46c190dd4f,FacebookAds_Advertising_masked,f9408566-03ab-44f5-881f-09f5491cbb7c
+192,ed615ac8-6332-415c-842a-bcc972059b78,FacebookAds_campaignwise_pivot_cumul_masked,862951de-6869-4c5c-89cd-3c4e168e6f30
+193,ed615ac8-6332-415c-842a-bcc972059b78,FacebookAds_Advertising_masked,f9408566-03ab-44f5-881f-09f5491cbb7c
+194,ec429066-745d-41f2-a291-7684c1ff01b9,katequinnorganics_3742_prod_presentation - FacebookAds_Advertising_cumul,036f6546-672a-48f4-b217-b855b0169e2a
+195,ec429066-745d-41f2-a291-7684c1ff01b9,katequinnorganics_3742_prod_presentation - FacebookAds_Advertising_pbi,5495ac72-0d66-4caa-a59d-80be981ab7e5
+196,56795582-6b30-460b-95d4-ff099911b999,dev_edm_prsn - FacebookAds_Advertising_cumul,e8d47a07-05c5-422c-a114-d36f1cec43a9
+197,56795582-6b30-460b-95d4-ff099911b999,dev_edm_prsn - FacebookAds_Advertising_pbi,be306e5f-c9c9-4efb-ac08-ff6637d1e08d
+198,b63f9bbd-bf85-4f79-9bf8-01231382308d,underdoggamesllc_3767_prod_presentation - FacebookAds_Advertising_cumul,8a879dde-1b5d-47f3-be02-31ef63756925
+199,b63f9bbd-bf85-4f79-9bf8-01231382308d,underdoggamesllc_3767_prod_presentation - FacebookAds_Advertising_pbi,1b30e6a7-329a-4f3d-8050-1b2a67f8a414
+200,810ff31f-d058-4bf1-816d-34fc8c5e40f7,Executive-Pbi-Masked,8aa14013-43fd-40ae-a2b8-aaecf125fd91
+201,810ff31f-d058-4bf1-816d-34fc8c5e40f7,LostSpend-Advertising-Masked,8480078e-ce7b-467c-813b-cc9e9d531129
+202,a109187d-b7df-4dbf-8036-e08286d5b895,Executive-Pbi-Masked,8aa14013-43fd-40ae-a2b8-aaecf125fd91
+203,a109187d-b7df-4dbf-8036-e08286d5b895,LostSpend-Advertising-Masked,8480078e-ce7b-467c-813b-cc9e9d531129
+204,62fd0a67-9f3c-496f-94cd-4f024cacff2d,Executive-Pbi-Masked,8aa14013-43fd-40ae-a2b8-aaecf125fd91
+205,62fd0a67-9f3c-496f-94cd-4f024cacff2d,LostSpend-Advertising-Masked,8480078e-ce7b-467c-813b-cc9e9d531129
+206,d74c57e5-e5ea-4d4e-bdaa-53843b6b81bc,Executive-Pbi-Masked,8aa14013-43fd-40ae-a2b8-aaecf125fd91
+207,d74c57e5-e5ea-4d4e-bdaa-53843b6b81bc,LostSpend-Advertising-Masked,8480078e-ce7b-467c-813b-cc9e9d531129
+208,c72cb09f-fadb-42f7-80ae-99fdd7acf474,Executive-Pbi-Masked,8aa14013-43fd-40ae-a2b8-aaecf125fd91
+209,c72cb09f-fadb-42f7-80ae-99fdd7acf474,LostSpend-Advertising-Masked,8480078e-ce7b-467c-813b-cc9e9d531129
+210,9a4db6ef-c96e-4335-b85a-65f93b92bfca,Executive-Pbi-Masked,8aa14013-43fd-40ae-a2b8-aaecf125fd91
+211,9a4db6ef-c96e-4335-b85a-65f93b92bfca,LostSpend-Advertising-Masked,8480078e-ce7b-467c-813b-cc9e9d531129
+212,f9ccac28-e31d-4e49-8934-fcbabd30a292,Executive-Pbi-Masked,8aa14013-43fd-40ae-a2b8-aaecf125fd91
+213,f9ccac28-e31d-4e49-8934-fcbabd30a292,LostSpend-Advertising-Masked,8480078e-ce7b-467c-813b-cc9e9d531129
+214,923d8fe3-98ad-4c8a-b074-622d986c80dd,Executive-Pbi-Masked,8aa14013-43fd-40ae-a2b8-aaecf125fd91
+215,923d8fe3-98ad-4c8a-b074-622d986c80dd,LostSpend-Advertising-Masked,8480078e-ce7b-467c-813b-cc9e9d531129
+216,d63c3144-cd92-4213-8601-2a384ee57f04,dev_edm_prsn - LostSpend_Advertising_pbi,e288285a-a31e-4e15-bea3-1a822265f2bf
+217,d63c3144-cd92-4213-8601-2a384ee57f04,dev_edm_prsn - Executive_Dashboard_pbi,c5137faa-2ba4-4af8-8784-c2eb693d1623
+218,d12c0347-69a0-4a02-9719-71eb38715fa3,underdoggamesllc_3767_prod_presentation - Executive_Dashboard_pbi,0c8e9a20-e0ee-4955-88bb-e2db9030ad0d
+219,d12c0347-69a0-4a02-9719-71eb38715fa3,underdoggamesllc_3767_prod_presentation - LostSpend_Advertising_pbi,2682bdba-b52f-4c63-a32f-edc02f603e6b
+220,e92c8379-8114-4410-aedd-9397fae64219,clearads_3854_prod_presentation - Executive_Dashboard_pbi,f8a9bc2f-98a3-4617-9f43-5aa1bdcb55a8
+221,e92c8379-8114-4410-aedd-9397fae64219,clearads_3854_prod_presentation - LostSpend_Advertising_pbi,93a42d3c-7a33-419e-9102-d39d8e5cbfcd
+222,14c809df-1c90-4e20-9b02-3ed1e48658d3,snowballpartners_3878_prod_presentation - Executive_Dashboard_pbi,0d9a30eb-8fe7-407e-a26b-7ecf93372966
+223,14c809df-1c90-4e20-9b02-3ed1e48658d3,snowballpartners_3878_prod_presentation - LostSpend_Advertising_pbi,e379ec4c-8daf-4759-bf76-32088595642a
+224,f5e5c862-4214-4189-a88e-98fc42994481,Exec Snapshot2,a1455507-6557-470e-a24d-7062946b3970
+225,0993cbc2-3b28-426e-ad08-aebf84587828,Exec Snapshot2,a1455507-6557-470e-a24d-7062946b3970
+226,d3ac4c76-4f1f-4dcc-9036-3620600323dc,Exec Snapshot2,a1455507-6557-470e-a24d-7062946b3970
+227,77ac31ac-e905-44e0-8339-eecfac7ffe39,Exec Snapshot2,a1455507-6557-470e-a24d-7062946b3970
+228,59f56ae9-439d-41eb-a4e7-7035725de8e9,Exec Snapshot2,a1455507-6557-470e-a24d-7062946b3970
+229,dce6e4b5-1be3-4698-936b-74dbe73126e0,Exec Snapshot2,a1455507-6557-470e-a24d-7062946b3970
+230,43e3dd1d-985b-49c3-a4fd-4feaed8b8f2d,Exec Snapshot2,a1455507-6557-470e-a24d-7062946b3970
+231,9f8a6a49-4472-497c-9b14-338935e10493,kbrands_3425_prod_presentation - Executive_Dashboard_cumul,a72fccb6-8d1e-45b2-9991-5b1346f9f3bb
+232,46c1859e-3b83-4191-92c0-fe58b78458fd,voyageurgroup_3722_prod_presentation - Executive_Dashboard_cumul,4260d6c9-161b-4b52-8dc1-9d89b06c2757
+233,91e2d651-475f-4ef1-b324-175a21a45209,zocoproducts_3675_prod_presentation - Executive_Dashboard_cumul,09871d37-ed6e-48ab-81e6-c8fd8333f1f1
+234,b7e5a9ec-6513-4ff3-9897-19a0ff780566,synergyhouseinternational_3774_prod_presentation - Executive_Dashboard_cumul,1bac496b-64fe-4e95-a14b-38718371f3c6
+235,1b685c8b-0be3-44c1-9837-9697235e5e6d,katequinnorganics_3742_prod_presentation - Executive_Dashboard_cumul,6773aa04-13a5-4158-b411-5ae0547c1cb0
+236,42f58a0b-fd6d-4ec4-9b1d-47c183e8d995,dev_edm_prsn - Executive_Dashboard_cumul,16082f67-6a67-4731-80f0-56d3c54d6c0b
+237,e53673f9-1764-414b-a8b8-f0d944fb5aec,underdoggamesllc_3767_prod_presentation - Executive_Dashboard_cumul,80b6825f-b4aa-4a4b-b29c-811a8921edbe
+238,7fd569b9-9d78-4581-9545-4f284345e772,aadar_3759_prod_presentation - Executive_Dashboard_cumul,4af512d2-0c5a-4dc6-9616-6b4c7fb7bf9a
+239,66446dac-0d12-42d7-8e57-aea7856939e1,preppackltd_3824_prod_presentation - Executive_Dashboard_cumul,2c30268b-1a89-4807-81a9-1a4a9bda96a2
+240,838c08c0-a19c-4d3c-9c36-1866b2e1b914,businesshub_3844_prod_presentation - Executive_Dashboard_cumul,036572c4-eabd-417d-acb2-4dda1df3e6e2
+241,e5e57f4d-504e-49a9-aac3-bef5a7e9c084,clearads_3854_prod_presentation - Executive_Dashboard_cumul,ba481ef6-ee19-4624-bfc7-b5fbcc357d61
+242,1381071e-ea5c-481a-b9c6-e0da949e6685,snowballpartners_3878_prod_presentation - Executive_Dashboard_cumul,67e2b6ee-495d-4b56-af4e-8d3de603da76
+243,7ab570b2-1194-4fc3-a09f-ff6c7c190f17,Executive Dashboard PBI Masked,2ac55628-b423-4a6c-897a-efc80824f56a
+244,e7819c7e-8ca9-4043-a3f8-dbb4d20838f4,Executive Dashboard PBI Masked,2ac55628-b423-4a6c-897a-efc80824f56a
+245,c5e3e6ac-89de-4566-ac6e-8c3157f4fdc4,Executive Dashboard PBI Masked,2ac55628-b423-4a6c-897a-efc80824f56a
+246,2b944cbe-1d90-40b5-960c-cb85cdd75753,Executive Dashboard PBI Masked,2ac55628-b423-4a6c-897a-efc80824f56a
+247,06b58839-c557-46c9-9d09-4870e7b58da8,Executive Dashboard PBI Masked,2ac55628-b423-4a6c-897a-efc80824f56a
+248,0831df9b-7cc9-4d47-b95f-40cfe8ba828c,voyageurgroup_3722_prod_presentation - Executive_Dashboard_pbi,1754744c-9f55-4011-9923-1a6b1b91b6f2
+249,60c992d1-62f6-42c0-8454-9dfe88d04605,godirectinc_3670_prod_presentation - Executive_Dashboard_pbi,2153f4f3-1000-4f58-9685-88b27abc61bc
+250,06af1253-0767-42b3-99f0-84b1e6209dcc,zocoproducts_3675_prod_presentation - Executive_Dashboard_pbi,ae1c109e-eb6c-4df2-9466-f4bd0445cb55
+251,20798793-24ab-4e6c-8e33-fda0d2ad5e11,amerify_3768_prod_presentation - Executive_Dashboard_pbi,06fad33a-1e5d-4a84-a63d-bf5adfe123b6
+252,7d18daac-8a50-4aae-abaa-c6bcf262782c,katequinnorganics_3742_prod_presentation - Executive_Dashboard_pbi,4b5b5302-dd31-4fd4-adac-4004773cf023
+253,7909c73a-f212-419c-9315-1a35224496f3,dev_edm_prsn - Executive_Dashboard_pbi,c5137faa-2ba4-4af8-8784-c2eb693d1623
+254,1d6db062-af39-4ce7-bd3f-badd7e227eed,businesshub_3844_prod_presentation - Executive_Dashboard_pbi,eca154a2-565c-4078-8a63-7d2c772d48f2
+255,445abc27-22bc-4440-bec0-e671188342ba,snowballpartners_3878_prod_presentation - Executive_Dashboard_pbi,0d9a30eb-8fe7-407e-a26b-7ecf93372966
+256,f020bf2c-9b9b-4f45-bcf9-edf75176b034,Executive trends pbi masked,ad711db4-e2bb-4942-8227-62d649eafba7
+257,82974962-965a-4f91-a2cc-394a978710c5,Executive trends pbi masked,ad711db4-e2bb-4942-8227-62d649eafba7
+258,5d3b3022-6dc5-4fa9-a2a7-dd7e4011bcca,Executive trends pbi masked,ad711db4-e2bb-4942-8227-62d649eafba7
+259,77ee0209-bbcd-4b63-87b2-381c4b0bfef3,kbrands_3425_prod_presentation - Executive_Dashboard_pbi,1d0c393d-1ddd-4f63-8a53-1d752eee2591
+260,6ce753d3-cd7c-4fda-9395-2be931cd7c57,Executive trends pbi masked,ad711db4-e2bb-4942-8227-62d649eafba7
+261,8950e04f-8496-4eae-849a-f0ae7530261a,godirectinc_3670_prod_presentation - Executive_Dashboard_pbi,2153f4f3-1000-4f58-9685-88b27abc61bc
+262,a9574f76-b04d-4d9a-9da2-399c0d5e97ed,zocoproducts_3675_prod_presentation - Executive_Dashboard_pbi,ae1c109e-eb6c-4df2-9466-f4bd0445cb55
+263,9b626d6e-832f-4394-885e-30ff7aae196c,amerify_3768_prod_presentation - Executive_Dashboard_pbi,06fad33a-1e5d-4a84-a63d-bf5adfe123b6
+264,b9aec969-834f-4e04-98cc-f24fb2533e97,dev_edm_prsn - Executive_Dashboard_pbi,c5137faa-2ba4-4af8-8784-c2eb693d1623
+265,387e68eb-a595-4141-9b45-e386cf12b9b5,businesshub_3844_prod_presentation - Executive_Dashboard_pbi,eca154a2-565c-4078-8a63-7d2c772d48f2
+266,339b6a1e-8d8f-4eed-b174-f01b6332874e,clearads_3854_prod_presentation - Executive_Dashboard_pbi,f8a9bc2f-98a3-4617-9f43-5aa1bdcb55a8
+267,ef034a1e-13b6-4fda-8504-9d0c67f1c02f,snowballpartners_3878_prod_presentation - Executive_Dashboard_pbi,0d9a30eb-8fe7-407e-a26b-7ecf93372966
+268,e4013d26-5a1f-42e4-9ae6-9c3b48ab6b13,dev_edm_prsn - EmailMarketing_PBI_anon,686d7a8f-0027-4d58-a13d-ec8ca7427ec6
+269,364c3d48-ba6f-4203-97d2-90055e441512,dev_edm_prsn - EmailMarketing_PBI_anon,686d7a8f-0027-4d58-a13d-ec8ca7427ec6
+270,126d8ec9-782f-45e7-b104-872a9b6310e4,dev_edm_presentation - EmailMarketing_PBI,79682e20-0990-419e-a249-d3a087e29227
+271,0ad1e7dd-f6b5-47bb-bb5a-818dfaa20c47,Attribution_Masked,1d25c374-b1c8-4c71-9254-5b1274f502f8
+272,a677b801-4d08-4acd-9612-f79fb5840bc2,Attribution_Masked,1d25c374-b1c8-4c71-9254-5b1274f502f8
+273,5a272590-8716-48d8-b8c5-dd6f3cff3ad9,Attribution_Masked,1d25c374-b1c8-4c71-9254-5b1274f502f8
+274,e73cafca-7297-45db-9602-bd9db55a9f35,Finance Overview Masked,eae1c693-2c82-486b-a3ea-7a1f662ea5a7
+275,be031e16-740c-45f0-90b8-ecbc395ef5d2,Finance Overview Masked,eae1c693-2c82-486b-a3ea-7a1f662ea5a7
+276,5424295f-b9e4-4303-b3ee-73680206ea04,Finance Overview Masked,eae1c693-2c82-486b-a3ea-7a1f662ea5a7
+277,ca0dc8ad-f50f-4b74-b47e-9a90170c06a5,Finance Overview Masked,eae1c693-2c82-486b-a3ea-7a1f662ea5a7
+278,374bec3d-c26f-409c-81a5-f48aeb102c96,Finance Overview Masked,eae1c693-2c82-486b-a3ea-7a1f662ea5a7
+279,b0d77d9f-95ed-4847-9d0c-13d7d2d6f4e1,Finance Overview Masked,eae1c693-2c82-486b-a3ea-7a1f662ea5a7
+280,c6de76e2-f6fe-4e42-9c78-b3f1026bd063,Inventory amazon masked,a0563379-0b8e-404e-9393-b34283c1c9e7
+281,c6de76e2-f6fe-4e42-9c78-b3f1026bd063,Amazon distinct asins,80a0f62a-dbe3-487f-a423-6a63a7737283
+282,682ad7e1-bda6-4e40-bd38-d29ce75d2c1b,Amazon distinct asins,80a0f62a-dbe3-487f-a423-6a63a7737283
+283,682ad7e1-bda6-4e40-bd38-d29ce75d2c1b,Inventory amazon masked,a0563379-0b8e-404e-9393-b34283c1c9e7
+284,7a05b826-1c8c-4db9-ba9d-a6408fd718b3,Amazon distinct asins,80a0f62a-dbe3-487f-a423-6a63a7737283
+285,7a05b826-1c8c-4db9-ba9d-a6408fd718b3,Inventory amazon masked,a0563379-0b8e-404e-9393-b34283c1c9e7
+286,df4bd0b7-9987-4fd5-b923-6fe42fec0d0d,zocoproducts_3675_prod_presentation - Inventory_Amazon_cumul,b7d3f1ed-1e30-4b3c-b53a-a8621afc377c
+287,df4bd0b7-9987-4fd5-b923-6fe42fec0d0d,zocoproducts_3675_prod_presentation - Inventory_Amazon_DistinctAsins,f957d986-9012-4214-8db9-b0b4ae508dd4
+288,2f0ee6c3-8ccf-400c-8d7a-bd1ede9be3e2,godirectinc_3670_prod_presentation - Inventory_Amazon_cumul,9303e8bd-5726-492f-bed8-bac665db1707
+289,2f0ee6c3-8ccf-400c-8d7a-bd1ede9be3e2,godirectinc_3670_prod_presentation - Inventory_Amazon_DistinctAsins,1dc914ec-0020-44eb-a77b-cab569d7b0fe
+290,c808f9dd-8b65-4d0a-86d5-4e154d65eaf7,voyageurgroup_3722_prod_presentation - Inventory_Amazon_DistinctAsins,ef14ff60-d2d0-4a34-8300-926ae76229a2
+291,c808f9dd-8b65-4d0a-86d5-4e154d65eaf7,voyageurgroup_3722_prod_presentation - Inventory_Amazon_cumul,f902cd2a-3b04-4a52-85b6-ec53a6f4deec
+292,5463a378-8ffb-4e0e-b05b-d58acfa7980d,Amazon distinct asins,80a0f62a-dbe3-487f-a423-6a63a7737283
+293,5463a378-8ffb-4e0e-b05b-d58acfa7980d,Inventory amazon masked,a0563379-0b8e-404e-9393-b34283c1c9e7
+294,5b5b0b53-b91e-4e52-a402-cef3b0930881,buffabrandmarketing_3747_prod_presentation - Inventory_Amazon_cumul,4f74be4b-b9bd-432c-aa63-a168e8f2549d
+295,5b5b0b53-b91e-4e52-a402-cef3b0930881,buffabrandmarketing_3747_prod_presentation - Inventory_Amazon_DistinctAsins,a90b90ac-a05b-480c-84d2-2a9bb8d63a03
+296,83eaa456-234d-475a-bab8-7024c0a29c3a,synergyhouseinternational_3774_prod_presentation - Inventory_Amazon_DistinctAsins,dbf07e1f-6f48-47aa-a63c-5988f8b7c330
+297,83eaa456-234d-475a-bab8-7024c0a29c3a,synergyhouseinternational_3774_prod_presentation - Inventory_Amazon_cumul,8a72387b-0e90-4ed2-829d-230f2d0d8001
+298,a65d9b0a-cb36-464c-874a-369dba226c06,amerify_3768_prod_presentation - Inventory_Amazon_cumul,4a4fa15a-686b-479d-be7a-11edcad886c2
+299,a65d9b0a-cb36-464c-874a-369dba226c06,amerify_3768_prod_presentation - Inventory_Amazon_DistinctAsins,bd86abe6-e452-47ce-996f-5ea526586eb0
+300,d77721c1-6369-4aa0-886a-cb8498459197,underdoggamesllc_3767_prod_presentation - Inventory_Amazon_cumul,e0715a2e-9132-4860-aff2-dc5f01aa91c9
+301,d77721c1-6369-4aa0-886a-cb8498459197,underdoggamesllc_3767_prod_presentation - Inventory_Amazon_DistinctAsins,e655bce9-8267-41a0-8a9c-eec4666746b4
+302,0b7717ca-1450-4770-8d70-51edc19b3d12,preppackltd_3824_prod_presentation - Inventory_Amazon_DistinctAsins,d00b9f70-ba75-4b2e-b79d-d12513b80c05
+303,0b7717ca-1450-4770-8d70-51edc19b3d12,preppackltd_3824_prod_presentation - Inventory_Amazon_cumul,c63e0745-3e1a-45f9-af33-0ee91c7d57c2
+304,753cc64b-c292-4ec8-813d-b5b7199613eb,clearads_3854_prod_presentation - Inventory_Amazon_DistinctAsins,0f67dab8-3c02-4675-8d4a-d19888181bbe
+305,753cc64b-c292-4ec8-813d-b5b7199613eb,clearads_3854_prod_presentation - Inventory_Amazon_cumul,a51310c7-dbf1-4b96-a4d2-a4ec64e21826
+306,98f64df0-5a78-47a9-bf44-ed6072b1e8c1,businesshub_3844_prod_presentation - Inventory_Amazon_DistinctAsins,10afdaf0-7319-4eb5-baba-00e901a009cf
+307,98f64df0-5a78-47a9-bf44-ed6072b1e8c1,businesshub_3844_prod_presentation - Inventory_Amazon_cumul,a59d7d81-20b2-4d36-a867-d45068c0215a
+308,ce7bfc2d-b1aa-412f-afe6-4833696809ef,snowballpartners_3878_prod_presentation - Inventory_Amazon_DistinctAsins,2488406b-87bf-456a-bd2a-6ee3b6df821a
+309,ce7bfc2d-b1aa-412f-afe6-4833696809ef,snowballpartners_3878_prod_presentation - Inventory_Amazon_cumul,aa6e8f70-3747-4aa5-85e9-d702481023f9
+310,d7e36c7b-7058-476a-8b79-a45c9838ff9c,aadar_3759_prod_presentation - Inventory_Amazon_cumul,12654225-5c72-48fe-b23b-65689a75775f
+311,d7e36c7b-7058-476a-8b79-a45c9838ff9c,aadar_3759_prod_presentation - Inventory_Amazon_DistinctAsins,82fbad6f-11b4-49f1-8458-f75d1f207625
+312,4d54dca7-8224-491d-ba3c-47643a0ed92e,ReturnMasked,dc974653-4bc6-4f96-996e-e988c4a459bb
+313,8811efb0-27b1-411e-a839-179c6d7064bc,ReturnMasked,dc974653-4bc6-4f96-996e-e988c4a459bb
+314,90f65657-e981-4f0a-8b15-f10c23fb0c5a,ReturnMasked,dc974653-4bc6-4f96-996e-e988c4a459bb
+315,f8f8ab0a-e74f-4110-8a9b-2acf0bac36ba,godirectinc_3670_prod_presentation - Returns_PBI,2f78a450-994a-4db2-9355-161212ca7894
+316,671f37c0-febd-40e8-a758-042a21acc890,godirectinc_3670_prod_presentation - Returns_PBI,2f78a450-994a-4db2-9355-161212ca7894
+317,523ae1b6-d07e-468c-abd0-4ebcd71a55d6,godirectinc_3670_prod_presentation - Returns_PBI,2f78a450-994a-4db2-9355-161212ca7894
+318,8c03b2b1-d05a-410b-9057-877ef875fc4a,voyageurgroup_3722_prod_presentation - Returns_PBI,fd90367b-ac65-4f22-bfe4-1b4745ff61b1
+319,95d759ce-4a16-487a-8d1a-31a6e00eb2ca,kbrands_3425_prod_presentation - Returns_PBI,cf841e46-1ce0-4dc3-93a6-a1030d149a45
+320,ccb5a163-b1c2-4ca2-b583-75a652eaeab2,ReturnMasked,dc974653-4bc6-4f96-996e-e988c4a459bb
+321,a2340416-566c-4155-b9e4-ef3158986f4f,buffabrandmarketing_3747_prod_presentation - Returns_PBI,0d9ad2b1-8e71-483b-aba5-f787d5e0bba2
+322,aa92865f-7ada-4ad5-934e-80e3cd46efeb,synergyhouseinternational_3774_prod_presentation - Returns_PBI,1a550d9f-bdef-4096-9451-4bd62ad7559e
+323,38afead8-c548-4b14-b7c0-68f21edbb836,katequinnorganics_3742_prod_presentation - Returns_PBI,949f0858-1162-47d7-b002-115ac652f1bb
+324,1b2b221c-dfc7-468d-afcc-3437ee80435f,amerify_3768_prod_presentation - Returns_PBI,7bab7543-7037-4244-bb6a-9fde57922479
+325,95b56953-cce7-4c12-b4a2-ee818ed687da,dev_edm_prsn - Returns_PBI,02d50340-3234-458f-812b-21c2f41a5242
+326,959e60c7-ea19-4c1c-9522-176c6befc3f6,underdoggamesllc_3767_prod_presentation - Returns_PBI,0cbe74c5-52cb-4744-9cba-76a274be0310
+327,de2626fe-54f9-48c4-9357-fb11a36bee7b,preppackltd_3824_prod_presentation - Returns_PBI,5a74beb4-59e3-4d9b-91b6-3ab0a0b9acb0
+328,0af223e8-a902-4e03-8aa0-2b71479199ed,businesshub_3844_prod_presentation - Returns_PBI,46af3f57-438c-440b-a034-1f378e004fae
+329,48b86e8d-1dfa-4655-a746-1277a0f0b7fb,snowballpartners_3878_prod_presentation - Returns_PBI,7cad927b-6fc4-4d9a-8619-4e542d9da0a6
+330,2315cecf-de90-4283-9f08-322b861d9aa3,aadar_3759_prod_presentation - Returns_PBI,163da42e-74ca-48c4-8fd7-c40a1709cb7d
+331,7be3c509-85ba-4d2b-9b84-04f980f442e6,Customer_glance_customer_metrics_pbi_masked,cfb8831b-5f03-491b-b669-13296589cf22
+332,7be3c509-85ba-4d2b-9b84-04f980f442e6,Customer_rfm_segments_cumul_masked,9374036a-a7d2-4c29-80da-03e3de0debc8
+333,7be3c509-85ba-4d2b-9b84-04f980f442e6,Customer_glance_cltv_cumul_masked,8db11973-380f-4dd2-a298-1bf9450008d4
+334,7be3c509-85ba-4d2b-9b84-04f980f442e6,Customer-glance-PBI masked,031848e6-ed55-49c0-b497-d2febf5828d3
+335,7be3c509-85ba-4d2b-9b84-04f980f442e6,customer_cohortWise_pivot_cumul_masked,47bc250a-f021-4c0f-9d68-ef39890f845d
+336,7be3c509-85ba-4d2b-9b84-04f980f442e6,Cohorts_Demo_new,92c6d18d-7442-4e5d-b188-59c49c314e32
+337,d2c2d023-a02b-4eb0-9b83-8de7b7ad8492,customer_cohortWise_pivot_cumul_masked,47bc250a-f021-4c0f-9d68-ef39890f845d
+338,d2c2d023-a02b-4eb0-9b83-8de7b7ad8492,Cohorts_Demo_new,92c6d18d-7442-4e5d-b188-59c49c314e32
+339,d2c2d023-a02b-4eb0-9b83-8de7b7ad8492,Customer_glance_cltv_cumul_masked,8db11973-380f-4dd2-a298-1bf9450008d4
+340,d2c2d023-a02b-4eb0-9b83-8de7b7ad8492,Customer_glance_customer_metrics_pbi_masked,cfb8831b-5f03-491b-b669-13296589cf22
+341,d2c2d023-a02b-4eb0-9b83-8de7b7ad8492,Customer_rfm_segments_cumul_masked,9374036a-a7d2-4c29-80da-03e3de0debc8
+342,d2c2d023-a02b-4eb0-9b83-8de7b7ad8492,Customer-glance-PBI masked,031848e6-ed55-49c0-b497-d2febf5828d3
+343,bf2f1a1a-b7a9-40b6-9ec7-617c8a70c9b8,customer_cohortWise_pivot_cumul_masked,47bc250a-f021-4c0f-9d68-ef39890f845d
+344,bf2f1a1a-b7a9-40b6-9ec7-617c8a70c9b8,Cohorts_Demo_new,92c6d18d-7442-4e5d-b188-59c49c314e32
+345,bf2f1a1a-b7a9-40b6-9ec7-617c8a70c9b8,Customer_glance_cltv_cumul_masked,8db11973-380f-4dd2-a298-1bf9450008d4
+346,bf2f1a1a-b7a9-40b6-9ec7-617c8a70c9b8,Customer_glance_customer_metrics_pbi_masked,cfb8831b-5f03-491b-b669-13296589cf22
+347,bf2f1a1a-b7a9-40b6-9ec7-617c8a70c9b8,Customer_rfm_segments_cumul_masked,9374036a-a7d2-4c29-80da-03e3de0debc8
+348,bf2f1a1a-b7a9-40b6-9ec7-617c8a70c9b8,Customer-glance-PBI masked,031848e6-ed55-49c0-b497-d2febf5828d3
+349,7d54cf5b-9b13-4836-bd0c-c5a3be6221a6,customer_cohortWise_pivot_cumul_masked,47bc250a-f021-4c0f-9d68-ef39890f845d
+350,7d54cf5b-9b13-4836-bd0c-c5a3be6221a6,Cohorts_Demo_new,92c6d18d-7442-4e5d-b188-59c49c314e32
+351,7d54cf5b-9b13-4836-bd0c-c5a3be6221a6,Customer_glance_cltv_cumul_masked,8db11973-380f-4dd2-a298-1bf9450008d4
+352,7d54cf5b-9b13-4836-bd0c-c5a3be6221a6,Customer_glance_customer_metrics_pbi_masked,cfb8831b-5f03-491b-b669-13296589cf22
+353,7d54cf5b-9b13-4836-bd0c-c5a3be6221a6,Customer_rfm_segments_cumul_masked,9374036a-a7d2-4c29-80da-03e3de0debc8
+354,7d54cf5b-9b13-4836-bd0c-c5a3be6221a6,Customer-glance-PBI masked,031848e6-ed55-49c0-b497-d2febf5828d3
+355,9204eda7-7640-4d97-8614-2fa8ff5a2028,godirectinc_3670_prod_presentation - customer_rfm_segments_cumul,6e4745aa-82e8-42e2-a1ad-28c2cf5fac27
+356,9204eda7-7640-4d97-8614-2fa8ff5a2028,godirectinc_3670_prod_presentation - customer_glance_customer_metrics_pbi,c30154a0-01d3-4ee6-85d4-b3e65663af00
+357,9204eda7-7640-4d97-8614-2fa8ff5a2028,godirectinc_3670_prod_presentation - customer_glance_pbi,b1ac6171-0cd2-409b-afd6-e420c202080a
+358,9204eda7-7640-4d97-8614-2fa8ff5a2028,godirectinc_3670_prod_presentation - customer_cohortwise_pivot_cumul,462fc1a5-2dc2-46cd-9a31-052e16940456
+359,9204eda7-7640-4d97-8614-2fa8ff5a2028,godirectinc_3670_prod_presentation - customer_glance_cltv_cumul,39631b17-6ffa-486f-8bd2-eb85c45a2a12
+360,50ee3baa-6874-4d7a-8041-71dcb03eb266,zocoproducts_3675_prod_presentation - customer_glance_pbi,5d041271-7982-4624-88ae-84813b522be8
+361,50ee3baa-6874-4d7a-8041-71dcb03eb266,zocoproducts_3675_prod_presentation - customer_cohortwise_pivot_cumul,0262365e-e968-4bb8-a33b-874429965c40
+362,50ee3baa-6874-4d7a-8041-71dcb03eb266,zocoproducts_3675_prod_presentation - customer_glance_cltv_cumul,2d0fade3-1aff-47af-a55c-7c6879540831
+363,50ee3baa-6874-4d7a-8041-71dcb03eb266,zocoproducts_3675_prod_presentation - customer_rfm_segments_cumul,afbbb0cc-c49f-42af-8f45-2622350e2b88
+364,50ee3baa-6874-4d7a-8041-71dcb03eb266,zocoproducts_3675_prod_presentation - customer_glance_customer_metrics_pbi,86a6ff1b-64f9-4151-8b48-6fb53deb438a
+365,a7d8c735-bd65-4f8d-85f4-d66bb4fef812,voyageurgroup_3722_prod_presentation - customer_cohortwise_pivot_cumul,f29b73d5-d0cf-4cc0-88b4-9ae031df61dc
+366,a7d8c735-bd65-4f8d-85f4-d66bb4fef812,voyageurgroup_3722_prod_presentation - customer_glance_pbi,42ab2ad9-dc98-4967-8f02-11d10e2b4351
+367,a7d8c735-bd65-4f8d-85f4-d66bb4fef812,voyageurgroup_3722_prod_presentation - customer_glance_customer_metrics_pbi,4e73af1a-0f3f-4849-97a9-bb968d07d752
+368,a7d8c735-bd65-4f8d-85f4-d66bb4fef812,voyageurgroup_3722_prod_presentation - customer_glance_cltv_cumul,7528faaf-7125-4a78-8dd2-3bd37b61ccca
+369,a7d8c735-bd65-4f8d-85f4-d66bb4fef812,voyageurgroup_3722_prod_presentation - customer_rfm_segments_cumul,16ef4298-6fb6-463f-8375-3919428ce6ee
+370,c147c0df-0364-4f2e-baa4-e41f820a099a,customer_cohortWise_pivot_cumul_masked,47bc250a-f021-4c0f-9d68-ef39890f845d
+371,c147c0df-0364-4f2e-baa4-e41f820a099a,Cohorts_Demo_new,92c6d18d-7442-4e5d-b188-59c49c314e32
+372,c147c0df-0364-4f2e-baa4-e41f820a099a,Customer_glance_cltv_cumul_masked,8db11973-380f-4dd2-a298-1bf9450008d4
+373,c147c0df-0364-4f2e-baa4-e41f820a099a,Customer_glance_customer_metrics_pbi_masked,cfb8831b-5f03-491b-b669-13296589cf22
+374,c147c0df-0364-4f2e-baa4-e41f820a099a,Customer_rfm_segments_cumul_masked,9374036a-a7d2-4c29-80da-03e3de0debc8
+375,c147c0df-0364-4f2e-baa4-e41f820a099a,Customer-glance-PBI masked,031848e6-ed55-49c0-b497-d2febf5828d3
+376,b017666a-2a29-4b58-ade5-58d211f90d3a,buffabrandmarketing_3747_prod_presentation - customer_glance_cltv_cumul,e04e004d-d1e1-49c0-99bd-55f22675e79a
+377,b017666a-2a29-4b58-ade5-58d211f90d3a,buffabrandmarketing_3747_prod_presentation - customer_cohortwise_pivot_cumul,989e82c0-849c-4ab3-8018-3e6057f6abe1
+378,b017666a-2a29-4b58-ade5-58d211f90d3a,buffabrandmarketing_3747_prod_presentation - customer_rfm_segments_cumul,b33e07b5-ef9b-4c87-b49a-fec035e04daf
+379,b017666a-2a29-4b58-ade5-58d211f90d3a,buffabrandmarketing_3747_prod_presentation - customer_glance_pbi,56ad4f20-4a23-4739-aad3-7624a989c6c8
+380,b017666a-2a29-4b58-ade5-58d211f90d3a,buffabrandmarketing_3747_prod_presentation - customer_glance_customer_metrics_pbi,48a92a8d-782e-4e70-b980-4dec280e80b4
+381,d6b9292a-a4d1-46be-9f03-6fd7a3b81cc3,synergyhouseinternational_3774_prod_presentation - customer_glance_cltv_cumul,20d8558d-5041-40ab-aa06-7d145016a059
+382,d6b9292a-a4d1-46be-9f03-6fd7a3b81cc3,synergyhouseinternational_3774_prod_presentation - customer_cohortwise_pivot_cumul,b7a6d502-7035-43b7-aec4-5c36ccb1c7d3
+383,d6b9292a-a4d1-46be-9f03-6fd7a3b81cc3,synergyhouseinternational_3774_prod_presentation - customer_rfm_segments_cumul,e6bf5a39-9d99-4890-b360-9ef5bd9b465f
+384,d6b9292a-a4d1-46be-9f03-6fd7a3b81cc3,synergyhouseinternational_3774_prod_presentation - customer_glance_pbi,a29d2871-c29f-416b-8dbb-b8526d8ffac6
+385,d6b9292a-a4d1-46be-9f03-6fd7a3b81cc3,synergyhouseinternational_3774_prod_presentation - customer_glance_customer_metrics_pbi,dd69c90a-1464-4b8c-9837-050f5908eded
+386,04918662-84d0-497a-a3a1-aefd77334fe5,amerify_3768_prod_presentation - customer_cohortwise_pivot_cumul,6f246011-bdef-4fd2-894d-0c91b293b898
+387,04918662-84d0-497a-a3a1-aefd77334fe5,amerify_3768_prod_presentation - customer_rfm_segments_cumul,224545ea-a6a9-4b06-8422-477cd183979c
+388,04918662-84d0-497a-a3a1-aefd77334fe5,amerify_3768_prod_presentation - customer_glance_customer_metrics_pbi,81a83f20-4c53-4c90-89b2-846727cf7d7d
+389,04918662-84d0-497a-a3a1-aefd77334fe5,amerify_3768_prod_presentation - customer_glance_cltv_cumul,4328d5c0-947e-4d9c-bb95-b24bb8f83b5d
+390,04918662-84d0-497a-a3a1-aefd77334fe5,amerify_3768_prod_presentation - customer_glance_pbi,336a4109-1f31-4ec4-b33e-96b94b0de300
+391,2c177247-fb74-4aaa-9bff-06b7d693aeec,katequinnorganics_3742_prod_presentation - customer_rfm_segments_cumul,0fafb519-ad08-494d-9a6f-25c6fb711d4c
+392,2c177247-fb74-4aaa-9bff-06b7d693aeec,katequinnorganics_3742_prod_presentation - customer_glance_cltv_cumul,9f985b9a-cdcc-48df-84d8-7e10b8c13b2d
+393,2c177247-fb74-4aaa-9bff-06b7d693aeec,katequinnorganics_3742_prod_presentation - customer_glance_pbi,7d6e1af4-7f05-4341-88db-c68ddba912a0
+394,2c177247-fb74-4aaa-9bff-06b7d693aeec,katequinnorganics_3742_prod_presentation - customer_glance_customer_metrics_pbi,fa6cbde4-c16b-4179-9e0b-2c010ebd80e7
+395,2c177247-fb74-4aaa-9bff-06b7d693aeec,katequinnorganics_3742_prod_presentation - customer_cohortwise_pivot_cumul,314170fd-5d03-45c4-8e42-efd8979de6b8
+396,2e69a316-c1b2-4ca3-9dd4-c876de1fc159,dev_edm_presentation - customer_rfm_segments_cumul,d9e35bf0-9055-4a28-9d64-3638cf9f7ef0
+397,2e69a316-c1b2-4ca3-9dd4-c876de1fc159,dev_edm_prsn - customer_glance_customer_metrics_pbi,a5020c43-64ec-46ec-ac46-985e52f4fa27
+398,2e69a316-c1b2-4ca3-9dd4-c876de1fc159,dev_edm_prsn - customer_glance_pbi,09fe41b3-1f22-4677-88c5-dfd759c5cf2d
+399,2e69a316-c1b2-4ca3-9dd4-c876de1fc159,dev_edm_prsn - customer_glance_cltv_cumul,c5d4f54c-df52-4e09-8a71-13429210824e
+400,2e69a316-c1b2-4ca3-9dd4-c876de1fc159,dev_edm_prsn - customer_cohortwise_pivot_cumul,714d7ce0-2f11-494b-89b9-f4b49808c148
+401,a027a983-d1bb-4cbb-8e8e-bb64ef261404,underdoggamesllc_3767_prod_presentation - customer_rfm_segments_cumul,67b24ba4-436d-4a5c-b619-84c32e28f5a4
+402,a027a983-d1bb-4cbb-8e8e-bb64ef261404,underdoggamesllc_3767_prod_presentation - customer_cohortwise_pivot_cumul,5f1dd1e2-2d81-4626-b679-1df8dbd1a7e0
+403,a027a983-d1bb-4cbb-8e8e-bb64ef261404,underdoggamesllc_3767_prod_presentation - customer_glance_cltv_cumul,3e936f79-af0e-4f18-8050-bdf633496acb
+404,a027a983-d1bb-4cbb-8e8e-bb64ef261404,underdoggamesllc_3767_prod_presentation - customer_glance_pbi,af1950db-0b05-402b-92fc-ce5854e24665
+405,a027a983-d1bb-4cbb-8e8e-bb64ef261404,underdoggamesllc_3767_prod_presentation - customer_glance_customer_metrics_pbi,a32783e4-8429-43f4-8376-30ebf8019291
+406,f5940808-f70a-4e36-a5c0-50296673425a,aadar_3759_prod_presentation - customer_cohortwise_pivot_cumul,5e791ef2-006c-4a33-9cc6-b2f01c16b3d1
+407,f5940808-f70a-4e36-a5c0-50296673425a,aadar_3759_prod_presentation - customer_glance_cltv_cumul,dda29a50-4cdc-4bdd-b76c-cfe1f63c8341
+408,f5940808-f70a-4e36-a5c0-50296673425a,aadar_3759_prod_presentation - customer_glance_pbi,7b510167-e65e-42ac-bc9f-8863d18fce38
+409,f5940808-f70a-4e36-a5c0-50296673425a,aadar_3759_prod_presentation - customer_rfm_segments_cumul,58963876-a4bf-48e0-94b1-8610ca3f1eb4
+410,f5940808-f70a-4e36-a5c0-50296673425a,aadar_3759_prod_presentation - customer_glance_customer_metrics_pbi,6cf7ffc1-fc97-419b-a232-bfb6bb846743
+411,b34ffee8-85a3-4f25-9ebb-d3ec05401d6d,preppackltd_3824_prod_presentation - customer_glance_cltv_cumul,1aa96d20-c1d6-46ee-8196-72101e1aec08
+412,b34ffee8-85a3-4f25-9ebb-d3ec05401d6d,preppackltd_3824_prod_presentation - customer_glance_customer_metrics_pbi,ca229d78-f3ff-409e-a288-2ee2dbd2310e
+413,b34ffee8-85a3-4f25-9ebb-d3ec05401d6d,preppackltd_3824_prod_presentation - customer_cohortwise_pivot_cumul,7dfd56c7-38a0-49a8-b3dc-724caaa562c1
+414,b34ffee8-85a3-4f25-9ebb-d3ec05401d6d,preppackltd_3824_prod_presentation - customer_rfm_segments_cumul,cc03b891-6b4c-4c7a-bbf8-f0f3df0a1a11
+415,b34ffee8-85a3-4f25-9ebb-d3ec05401d6d,preppackltd_3824_prod_presentation - customer_glance_pbi,de166b88-67c1-4a5e-903b-2cb8c515bcf9
+416,05678202-b687-457a-9a44-dc27a67163c0,clearads_3854_prod_presentation - customer_cohortwise_pivot_cumul,3c6f2040-6b28-4b21-8749-10e78f669012
+417,05678202-b687-457a-9a44-dc27a67163c0,clearads_3854_prod_presentation - customer_rfm_segments_cumul,9ea90426-7f7c-4a90-9b04-5eb5d78b6da4
+418,05678202-b687-457a-9a44-dc27a67163c0,clearads_3854_prod_presentation - customer_glance_cltv_cumul,7ad1a072-f802-470e-81a3-95bb7e063ad0
+419,05678202-b687-457a-9a44-dc27a67163c0,clearads_3854_prod_presentation - customer_glance_pbi,b76b4901-f4c1-43d7-b088-0f5a0d4cdb50
+420,05678202-b687-457a-9a44-dc27a67163c0,clearads_3854_prod_presentation - customer_glance_customer_metrics_pbi,53a5b968-9ffe-4db4-a0e2-4928b6e1129d
+421,66d1bf1f-55d1-4afa-ad61-1ab6a313f3b3,businesshub_3844_prod_presentation - customer_rfm_segments_cumul,cefa9a78-547e-4967-8634-b281ca189243
+422,66d1bf1f-55d1-4afa-ad61-1ab6a313f3b3,businesshub_3844_prod_presentation - customer_cohortwise_pivot_cumul,d40a7e78-b27b-464a-9281-397062259dab
+423,66d1bf1f-55d1-4afa-ad61-1ab6a313f3b3,businesshub_3844_prod_presentation - customer_glance_cltv_cumul,59f7e801-b0b8-4da1-92b4-3afbae24997d
+424,66d1bf1f-55d1-4afa-ad61-1ab6a313f3b3,businesshub_3844_prod_presentation - customer_glance_customer_metrics_pbi,edf8e233-55a7-41d6-b9db-f08d7454f280
+425,66d1bf1f-55d1-4afa-ad61-1ab6a313f3b3,businesshub_3844_prod_presentation - customer_glance_pbi,0db64357-3fed-462d-9b9f-ea2b96124aac
+426,aa9fe00f-f01b-4522-b28f-89131dbae019,aadar_3759_prod_presentation - customer_cohortwise_pivot_cumul,5e791ef2-006c-4a33-9cc6-b2f01c16b3d1
+427,aa9fe00f-f01b-4522-b28f-89131dbae019,aadar_3759_prod_presentation - customer_glance_cltv_cumul,dda29a50-4cdc-4bdd-b76c-cfe1f63c8341
+428,aa9fe00f-f01b-4522-b28f-89131dbae019,aadar_3759_prod_presentation - customer_glance_pbi,7b510167-e65e-42ac-bc9f-8863d18fce38
+429,aa9fe00f-f01b-4522-b28f-89131dbae019,aadar_3759_prod_presentation - customer_rfm_segments_cumul,58963876-a4bf-48e0-94b1-8610ca3f1eb4
+430,aa9fe00f-f01b-4522-b28f-89131dbae019,aadar_3759_prod_presentation - customer_glance_customer_metrics_pbi,6cf7ffc1-fc97-419b-a232-bfb6bb846743
+431,fe2a624e-3a55-41c2-9999-f8332ca0ae72,snowballpartners_3878_prod_presentation - customer_rfm_segments_cumul,ce6b593b-52e8-4a01-a04a-0bee4a62550d
+432,fe2a624e-3a55-41c2-9999-f8332ca0ae72,snowballpartners_3878_prod_presentation - customer_glance_customer_metrics_pbi,cb1e60e0-8beb-4d7b-859e-a7bef136e81f
+433,fe2a624e-3a55-41c2-9999-f8332ca0ae72,snowballpartners_3878_prod_presentation - customer_glance_pbi,4052b601-17f1-4ad9-b08c-4f35377bc58c
+434,fe2a624e-3a55-41c2-9999-f8332ca0ae72,snowballpartners_3878_prod_presentation - customer_cohortwise_pivot_cumul,3c579d4e-2beb-4b7c-b0da-3a0bae06fcd1
+435,fe2a624e-3a55-41c2-9999-f8332ca0ae72,snowballpartners_3878_prod_presentation - customer_glance_cltv_cumul,98fbbba8-d9a4-475f-9e0d-0285da089518
+436,318b4946-9080-450f-983d-762a2f8d345f,dev_ekos - Product_affinity_cumul_masked,d8bc2acd-2ea0-407c-acc6-54bd578244b7
+437,318b4946-9080-450f-983d-762a2f8d345f,dev_ekos_excel - product_pbi_masked,2efb271a-6fbb-4751-aabf-c860b64d2f7b
+438,7c3b6655-3c65-43f1-beb5-95256f05ed5e,dev_ekos - Product_pbi_masked,ce018fdd-8d38-4792-8bd2-cdf29a6fb315
+439,7c3b6655-3c65-43f1-beb5-95256f05ed5e,dev_ekos - Product_affinity_cumul_masked,d8bc2acd-2ea0-407c-acc6-54bd578244b7
+440,54d853f0-2fe5-4bb6-a01c-c8ba1efbd894,dev_ekos - Product_affinity_cumul_masked,d8bc2acd-2ea0-407c-acc6-54bd578244b7
+441,54d853f0-2fe5-4bb6-a01c-c8ba1efbd894,dev_ekos_excel - product_pbi_masked,2efb271a-6fbb-4751-aabf-c860b64d2f7b
+442,94d69678-2528-4dcd-ab7d-c946372e631b,dev_ekos - Product_affinity_cumul_masked,d8bc2acd-2ea0-407c-acc6-54bd578244b7
+443,94d69678-2528-4dcd-ab7d-c946372e631b,dev_ekos_excel - product_pbi_masked,2efb271a-6fbb-4751-aabf-c860b64d2f7b
+444,7e1c9c64-05af-42c0-9f3f-3796cfa96e69,dev_ekos - Product_affinity_cumul_masked,d8bc2acd-2ea0-407c-acc6-54bd578244b7
+445,7e1c9c64-05af-42c0-9f3f-3796cfa96e69,dev_ekos_excel - product_pbi_masked,2efb271a-6fbb-4751-aabf-c860b64d2f7b
+446,a13b81d0-f004-4c80-b4b2-7e17b2bec13c,buffabrandmarketing_3747_prod_presentation - Product_PBI,9fede7e8-5356-4ba4-8151-d14ee5373a72
+447,a13b81d0-f004-4c80-b4b2-7e17b2bec13c,buffabrandmarketing_3747_prod_presentation - Product_Affinity_Cumul,f9fa8381-20b1-4430-873b-fbbac8bf16e9
+448,096e0583-44ec-40bf-9ba4-dacb1a355424,buffabrandmarketing_3747_prod_presentation - Product_Affinity_Cumul,f9fa8381-20b1-4430-873b-fbbac8bf16e9
+449,096e0583-44ec-40bf-9ba4-dacb1a355424,buffabrandmarketing_3747_prod_presentation - Product_PBI,9fede7e8-5356-4ba4-8151-d14ee5373a72
+450,6606f44d-9b6b-4db4-98da-ff912cc49f26,godirectinc_3670_prod_presentation - Product_PBI,63e66f10-2ed6-4d9a-ba8d-652fd389b483
+451,6606f44d-9b6b-4db4-98da-ff912cc49f26,godirectinc_3670_prod_presentation - Product_Affinity_Cumul,07d63c30-2cb2-4e2a-829a-65eb9c49938c
+452,5744f40e-76e6-4d6e-a60b-4e0699e57b84,zocoproducts_3675_prod_presentation - Product_PBI,2485669f-6100-44ba-8f28-1e9b27dc1a05
+453,5744f40e-76e6-4d6e-a60b-4e0699e57b84,zocoproducts_3675_prod_presentation - Product_Affinity_Cumul,ff4c5631-ab31-4c09-9dbd-57fbd5a29a79
+454,531243b9-96cd-4107-b333-3f789da4538d,synergyhouseinternational_3774_prod_presentation - Product_PBI,555b7bd2-31ad-418d-bcde-28b62ee43a4a
+455,531243b9-96cd-4107-b333-3f789da4538d,synergyhouseinternational_3774_prod_presentation - Product_Affinity_Cumul,2c9067f7-489f-443c-a86d-9581dcd79911
+456,56ce41ef-34b7-4bf4-8773-1200bd1d4c17,amerify_3768_prod_presentation - Product_Affinity_Cumul,a50e49bc-e152-4b79-8d77-476c6cd12231
+457,56ce41ef-34b7-4bf4-8773-1200bd1d4c17,amerify_3768_prod_presentation - Product_PBI,0b8505b0-fd22-4799-846c-0f1dcb2474aa
+458,80c8656c-b11d-4106-98be-25f5a84d08d4,katequinnorganics_3742_prod_presentation - Product_PBI,1838f730-9783-4f90-9da3-6329c6701694
+459,80c8656c-b11d-4106-98be-25f5a84d08d4,katequinnorganics_3742_prod_presentation - Product_Affinity_Cumul,2be8be58-c334-4db3-98bb-fd6d058fe53f
+460,f4574013-d992-4b28-883b-47f0ea0716aa,dev_ekos_presentation - Product_Affinity_Cumul,227f18ef-4836-40f5-8b68-eff4cef4e035
+461,f4574013-d992-4b28-883b-47f0ea0716aa,dev_ekos_presentation - Product_PBI,2149c6ab-4abf-42f8-82d5-5a7627bfefe1
+462,7a48c3f9-c670-4327-bdbd-89cbb90b49d8,underdoggamesllc_3767_prod_presentation - Product_Affinity_Cumul,162f274f-5601-4be5-af5d-bc61f8bcc933
+463,7a48c3f9-c670-4327-bdbd-89cbb90b49d8,underdoggamesllc_3767_prod_presentation - Product_PBI,58f47acf-dee3-4cc6-9e4a-0b4cea431f12
+464,8c76a756-989f-41e6-9858-5b20c82ce5e4,preppackltd_3824_prod_presentation - Product_Affinity_Cumul,57b6cdf1-4ab9-4947-959d-ab916f94c490
+465,8c76a756-989f-41e6-9858-5b20c82ce5e4,preppackltd_3824_prod_presentation - Product_PBI,79ac755a-eb5a-4a51-91a0-6841545c15ea
+466,37df122e-cd17-45a6-b1c1-31d1a55b95db,clearads_3854_prod_presentation - Product_Affinity_Cumul,b3914ef4-0b4c-4fa9-b78e-7663085a818a
+467,37df122e-cd17-45a6-b1c1-31d1a55b95db,clearads_3854_prod_presentation - Product_PBI,d2a246a5-7e5e-45fb-8c2b-6a1998ecff59
+468,c81d7ec3-0f98-4d2f-8ab5-21595c7690d3,businesshub_3844_prod_presentation - Product_PBI,6fdbae62-d1f7-455c-8a4c-c7894c191611
+469,c81d7ec3-0f98-4d2f-8ab5-21595c7690d3,businesshub_3844_prod_presentation - Product_Affinity_Cumul,0bee48cb-53a9-4097-9324-a8534f349886
+470,7352756d-1873-455c-93e3-dcf68dd87586,aadar_3759_prod_presentation - Product_PBI,88d4414c-6f76-4b15-8acd-284e14c7acbf
+471,7352756d-1873-455c-93e3-dcf68dd87586,aadar_3759_prod_presentation - Product_Affinity_Cumul,3372b96f-4696-484a-8e0e-6d5896d6b3dc
+472,8bb982b9-ad10-4298-a13e-05727ca73209,aadar_3759_prod_presentation - Product_PBI,88d4414c-6f76-4b15-8acd-284e14c7acbf
+473,8bb982b9-ad10-4298-a13e-05727ca73209,aadar_3759_prod_presentation - Product_Affinity_Cumul,3372b96f-4696-484a-8e0e-6d5896d6b3dc
+474,17eb97f1-1a05-48f7-8867-9b6e12849564,GoogleAds_campaignwise_pivot_cumul_masked,c13ca0ba-9659-4b08-9ceb-33b60186e1b7
+475,17eb97f1-1a05-48f7-8867-9b6e12849564,dev_ekos_excel - GoogleADs - Targeting - masked,42d89038-d109-4186-818f-e41fba482074
+476,17eb97f1-1a05-48f7-8867-9b6e12849564,GoogleAds_Advertising_masked,3ece2c3c-4baa-4e53-acfe-d418406def73
+477,910f7461-dc04-45e7-b3b4-549e48510579,GoogleAds_campaignwise_pivot_cumul_masked,c13ca0ba-9659-4b08-9ceb-33b60186e1b7
+478,910f7461-dc04-45e7-b3b4-549e48510579,GoogleAds_Advertising_masked,3ece2c3c-4baa-4e53-acfe-d418406def73
+479,910f7461-dc04-45e7-b3b4-549e48510579,dev_ekos_excel - GoogleADs - Targeting - masked,42d89038-d109-4186-818f-e41fba482074
+480,b97e5786-6a29-40a9-b8c0-4cbeb529afd4,GoogleAds_campaignwise_pivot_cumul_masked,c13ca0ba-9659-4b08-9ceb-33b60186e1b7
+481,b97e5786-6a29-40a9-b8c0-4cbeb529afd4,GoogleAds_Advertising_masked,3ece2c3c-4baa-4e53-acfe-d418406def73
+482,b97e5786-6a29-40a9-b8c0-4cbeb529afd4,dev_ekos_excel - GoogleADs - Targeting - masked,42d89038-d109-4186-818f-e41fba482074
+483,9a7dfb12-f7b5-4026-8507-68ddc5a2f9de,GoogleAds_campaignwise_pivot_cumul_masked,c13ca0ba-9659-4b08-9ceb-33b60186e1b7
+484,9a7dfb12-f7b5-4026-8507-68ddc5a2f9de,GoogleAds_Advertising_masked,3ece2c3c-4baa-4e53-acfe-d418406def73
+485,9a7dfb12-f7b5-4026-8507-68ddc5a2f9de,dev_ekos_excel - GoogleADs - Targeting - masked,42d89038-d109-4186-818f-e41fba482074
+486,cc21d0fe-1386-40b5-881a-7354b6cc54d4,GoogleAds_campaignwise_pivot_cumul_masked,c13ca0ba-9659-4b08-9ceb-33b60186e1b7
+487,cc21d0fe-1386-40b5-881a-7354b6cc54d4,GoogleAds_Advertising_masked,3ece2c3c-4baa-4e53-acfe-d418406def73
+488,cc21d0fe-1386-40b5-881a-7354b6cc54d4,dev_ekos_excel - GoogleADs - Targeting - masked,42d89038-d109-4186-818f-e41fba482074
+489,61b0d8f3-e674-477a-8015-df2bc5ca74b6,GoogleAds_campaignwise_pivot_cumul_masked,c13ca0ba-9659-4b08-9ceb-33b60186e1b7
+490,61b0d8f3-e674-477a-8015-df2bc5ca74b6,GoogleAds_Advertising_masked,3ece2c3c-4baa-4e53-acfe-d418406def73
+491,61b0d8f3-e674-477a-8015-df2bc5ca74b6,dev_ekos_excel - GoogleADs - Targeting - masked,42d89038-d109-4186-818f-e41fba482074
+492,321590c9-229c-4f17-9b19-d625323a7eac,BingADs_Targeting_masked,bc2f4b9c-a406-45ec-942a-caaff77b8805
+493,321590c9-229c-4f17-9b19-d625323a7eac,BingAds_campaignwise_pivot_cumul_masked,d3633ade-af5e-4a5b-b7eb-cb3db8ae9584
+494,321590c9-229c-4f17-9b19-d625323a7eac,BingAds_Advertising_masked,85509ae8-6668-44e9-8a17-af4c576ee225
+495,be6b6d00-cc9c-485b-a321-43adfcbfe3da,BingAds_Advertising_masked,85509ae8-6668-44e9-8a17-af4c576ee225
+496,be6b6d00-cc9c-485b-a321-43adfcbfe3da,BingAds_campaignwise_pivot_cumul_masked,d3633ade-af5e-4a5b-b7eb-cb3db8ae9584
+497,be6b6d00-cc9c-485b-a321-43adfcbfe3da,BingADs_Targeting_masked,bc2f4b9c-a406-45ec-942a-caaff77b8805
+498,35be1ec8-8ec8-4f17-8733-4c5f1339b92c,BingAds_Advertising_masked,85509ae8-6668-44e9-8a17-af4c576ee225
+499,35be1ec8-8ec8-4f17-8733-4c5f1339b92c,BingAds_campaignwise_pivot_cumul_masked,d3633ade-af5e-4a5b-b7eb-cb3db8ae9584
+500,35be1ec8-8ec8-4f17-8733-4c5f1339b92c,BingADs_Targeting_masked,bc2f4b9c-a406-45ec-942a-caaff77b8805
+501,270db30c-5ad8-4f1e-8c15-634e642ffc09,BingAds_Advertising_masked,85509ae8-6668-44e9-8a17-af4c576ee225
+502,270db30c-5ad8-4f1e-8c15-634e642ffc09,BingAds_campaignwise_pivot_cumul_masked,d3633ade-af5e-4a5b-b7eb-cb3db8ae9584
+503,270db30c-5ad8-4f1e-8c15-634e642ffc09,BingADs_Targeting_masked,bc2f4b9c-a406-45ec-942a-caaff77b8805
+504,6d2fe752-57ee-4aa5-9165-bb9aed077885,LostSpend-Targeting-Masked,a1b4ca5a-dc22-4709-968a-3c3a8217bb53
+505,6d2fe752-57ee-4aa5-9165-bb9aed077885,LostSpend-Advertising-Masked,8480078e-ce7b-467c-813b-cc9e9d531129
+506,54fa64ab-9792-42c9-92f4-6ba2cf5d5519,LostSpend-Advertising-Masked,8480078e-ce7b-467c-813b-cc9e9d531129
+507,54fa64ab-9792-42c9-92f4-6ba2cf5d5519,LostSpend-Targeting-Masked,a1b4ca5a-dc22-4709-968a-3c3a8217bb53
+508,796ad026-5989-4db4-be42-5331c234db0d,LostSpend-Advertising-Masked,8480078e-ce7b-467c-813b-cc9e9d531129
+509,796ad026-5989-4db4-be42-5331c234db0d,LostSpend-Targeting-Masked,a1b4ca5a-dc22-4709-968a-3c3a8217bb53
+510,e2748145-e70a-4a55-8c2a-67b7c0d9b977,dev_edm_prsn - LostSpend_Advertising_pbi,e288285a-a31e-4e15-bea3-1a822265f2bf
+511,e2748145-e70a-4a55-8c2a-67b7c0d9b977,dev_edm_prsn - LostSpend_Targeting_pbi,4dc33c35-9dba-4252-a793-ce238bb702d6
+512,47ec73dc-a59f-431c-9925-1354ffea1b66,clearads_3854_prod_presentation - LostSpend_Advertising_pbi,93a42d3c-7a33-419e-9102-d39d8e5cbfcd
+513,47ec73dc-a59f-431c-9925-1354ffea1b66,clearads_3854_prod_presentation - LostSpend_Targeting_pbi,1910ec25-9a54-47c0-85ab-7cfd406092ec
+514,258bc9c9-a217-433a-a660-0ebf34717779,aadar_3759_prod_presentation - LostSpend_Advertising_pbi,88cdf7d0-5815-484a-abf7-d6db0efe4ef7
+515,258bc9c9-a217-433a-a660-0ebf34717779,aadar_3759_prod_presentation - LostSpend_Targeting_pbi,0a097374-c57f-4023-8dc3-7569e2b58205
+516,173f57b4-01ef-4f1a-a51d-81923b1ee1bc,dev_edm_prsn - AMC_Path_To_Conversion,98f4c02b-5b10-4e5f-9de1-a61b10c941be
+517,173f57b4-01ef-4f1a-a51d-81923b1ee1bc,dev_edm_prsn - AMC_Audience_Segment,ac9a7e25-333c-4577-90bd-e1316c267610
+518,173f57b4-01ef-4f1a-a51d-81923b1ee1bc,dev_edm_prsn - AMC_DSP_SPA_Overlap,7642f4ed-1b04-4283-9675-8aa814979535
+519,173f57b4-01ef-4f1a-a51d-81923b1ee1bc,dev_edm_prsn - AMC_Branded_Searches,1a8fb22c-5160-4514-81cd-48dbba31689b
+520,173f57b4-01ef-4f1a-a51d-81923b1ee1bc,dev_edm_prsn - AMC_DevicePath_To_Conversion,e831d74a-f11b-4ae5-9bc7-d35c6ad0dd27
+521,173f57b4-01ef-4f1a-a51d-81923b1ee1bc,dev_edm_prsn - AMC_SupplySource,a8464363-038d-4465-95a5-62779fbfe3cf
+522,173f57b4-01ef-4f1a-a51d-81923b1ee1bc,dev_edm_presentation - AMC_SPA_Overlap,49497b86-9688-48f0-9b83-1fbdac814f55
+523,173f57b4-01ef-4f1a-a51d-81923b1ee1bc,dev_edm_prsn - AMC_Geography,7d78266c-44ea-449c-87d7-d56ae31cd9b2
+524,173f57b4-01ef-4f1a-a51d-81923b1ee1bc,dev_edm_prsn - AMC_ASIN_Overlap,d1ce50f5-135f-4720-b220-785fd1ff8f02
+525,502adab7-f221-4596-a030-fe754501e5e9,nexus_1909_test_presentation - elastic_charts_pbi,9af7102d-903d-4917-ae35-d0f9542119aa
+526,9da6497a-1232-45ea-bcdd-9430127f9326,dev_edm_prsn - elastic_charts_pbi,9242fb7d-dcaa-458e-8a32-81015f62cbd8
+527,1570e836-2cc9-4d71-b366-83bd23d55d06,DateBrowser_Daily_Masked_KOS,d214f3d2-2082-4721-a9e7-d1f864000d9a
+528,1570e836-2cc9-4d71-b366-83bd23d55d06,DateBrowserCampaignDaily_Masked_KOS,856e8049-3492-4ea7-85a4-6879a7088bd5
+529,20fa66ff-8147-4bb9-bba5-bb0ac12bc5f8,nexus_1909_test_presentation - date_browser_daily,839147db-b1a2-44e3-b794-9aa324ab6eb2
+530,20fa66ff-8147-4bb9-bba5-bb0ac12bc5f8,nexus_1909_test_presentation - date_browser_campaign_daily,0c08ce1b-e789-49f1-a389-a13925542126
+531,9b844773-fdba-42cc-9986-2733f3f29e25,DateBrowser_Daily_Masked_KOS,d214f3d2-2082-4721-a9e7-d1f864000d9a
+532,9b844773-fdba-42cc-9986-2733f3f29e25,DateBrowserCampaignDaily_Masked_KOS,856e8049-3492-4ea7-85a4-6879a7088bd5
+533,b5859a53-92e7-4d79-a06c-e117ea4bd9fd,DateBrowser_Daily_Masked_KOS,d214f3d2-2082-4721-a9e7-d1f864000d9a
+534,b5859a53-92e7-4d79-a06c-e117ea4bd9fd,DateBrowserCampaignDaily_Masked_KOS,856e8049-3492-4ea7-85a4-6879a7088bd5
+535,b0684a57-d969-40a3-a81b-eaa4f63efeb6,DateBrowser_Daily_Masked_KOS,d214f3d2-2082-4721-a9e7-d1f864000d9a
+536,b0684a57-d969-40a3-a81b-eaa4f63efeb6,DateBrowserCampaignDaily_Masked_KOS,856e8049-3492-4ea7-85a4-6879a7088bd5
+537,7ab24b19-df1e-4030-8981-687401465c66,voyageurgroup_3722_prod_presentation - date_browser_campaign_daily,20383a33-301f-4239-9e01-220adde942ad
+538,7ab24b19-df1e-4030-8981-687401465c66,voyageurgroup_3722_prod_presentation - date_browser_daily,9d852c6a-c4af-4563-acfd-85eb2831e174
+539,a8892e20-8beb-4bad-9a83-f1395c3a0591,zocoproducts_3675_prod_presentation - date_browser_campaign_daily,bde8753a-5a49-46b5-8454-ced881fc2035
+540,a8892e20-8beb-4bad-9a83-f1395c3a0591,zocoproducts_3675_prod_presentation - date_browser_daily,a7dbb1e6-77fc-4f5c-b6ef-7530ae5d5d83
+541,edf1fc46-a6fe-4ec9-969e-e4fae89c787a,DateBrowser_Daily_Masked_KOS,d214f3d2-2082-4721-a9e7-d1f864000d9a
+542,edf1fc46-a6fe-4ec9-969e-e4fae89c787a,DateBrowserCampaignDaily_Masked_KOS,856e8049-3492-4ea7-85a4-6879a7088bd5
+543,7685d341-d05e-463c-9de1-2d345991c9d7,synergyhouseinternational_3774_prod_presentation - date_browser_campaign_daily,e9303dcf-f532-4066-af8a-de4e5d6ea2fa
+544,7685d341-d05e-463c-9de1-2d345991c9d7,synergyhouseinternational_3774_prod_presentation - date_browser_daily,972a2e08-3479-4137-bd6f-8d14fe37921c
+545,ee476d7b-9e5f-4525-8179-0380bd7d11af,amerify_3768_prod_presentation - date_browser_campaign_daily,7caed7f1-cc53-48d0-ba6d-f80c1bb320d7
+546,ee476d7b-9e5f-4525-8179-0380bd7d11af,amerify_3768_prod_presentation - date_browser_daily,a51db67c-e268-43d1-8d79-e3587e5e35be
+547,d497cf2f-86b5-4ddc-b9c0-507f0cfe53c4,katequinnorganics_3742_prod_presentation - date_browser_campaign_daily,bb0bdf8f-d580-46c5-85f7-04fc1aafa4a0
+548,d497cf2f-86b5-4ddc-b9c0-507f0cfe53c4,katequinnorganics_3742_prod_presentation - date_browser_daily,7f62e5ea-d715-4e96-893d-fa972ef1790c
+549,9b74ad96-eddc-4a8e-aff1-c3fab42e90ce,dev_edm_prsn - date_browser_daily,2c4e5bfb-2f46-4d1a-8dbb-1aa288921b93
+550,9b74ad96-eddc-4a8e-aff1-c3fab42e90ce,dev_edm_prsn - date_browser_campaign_daily,6de2f4b9-ac70-4640-b3a7-3f0cc11a34c9
+551,2b43ccc9-eaea-45d0-a643-d4bdea39d102,preppackltd_3824_prod_presentation - date_browser_campaign_daily,c6d68001-ef1e-4e96-b1a3-77043457496e
+552,2b43ccc9-eaea-45d0-a643-d4bdea39d102,preppackltd_3824_prod_presentation - date_browser_daily,18f6c112-d8d3-405b-9588-b2188d212c49
+553,3b339a1d-8c29-439b-a476-43a8b2108b57,businesshub_3844_prod_presentation - date_browser_daily,e94dbf5f-4447-4190-aa36-bfbe71585883
+554,3b339a1d-8c29-439b-a476-43a8b2108b57,businesshub_3844_prod_presentation - date_browser_campaign_daily,265fb271-f88b-4db7-ae11-f40bbfe6d950
+555,5f6a4e56-475d-4e98-8750-2a734995bddc,DateBrowser_Daily_Masked_KOS,d214f3d2-2082-4721-a9e7-d1f864000d9a
+556,5f6a4e56-475d-4e98-8750-2a734995bddc,DateBrowserCampaignDaily_Masked_KOS,856e8049-3492-4ea7-85a4-6879a7088bd5
+557,ff832e46-42a4-4183-bb5a-d50eb323e254,DateBrowser_Daily_Masked_KOS,d214f3d2-2082-4721-a9e7-d1f864000d9a
+558,ff832e46-42a4-4183-bb5a-d50eb323e254,DateBrowserCampaignDaily_Masked_KOS,856e8049-3492-4ea7-85a4-6879a7088bd5
+559,d475f5d2-a9c8-4614-a372-5838e70bd9d7,kbrands_3425_prod_presentation - date_browser_campaign_daily,0b12bf49-f7f5-4acc-99d6-bf1d6b4af6fe
+560,d475f5d2-a9c8-4614-a372-5838e70bd9d7,kbrands_3425_prod_presentation - date_browser_daily,ecb962f1-80a4-46ce-bf6c-881ec3a23805
+561,73feb132-d813-4d1f-849c-e2076cd8096f,godirectinc_3670_prod_presentation - date_browser_daily,9c20f009-3717-478a-9ab4-c1fc2eb38c93
+562,73feb132-d813-4d1f-849c-e2076cd8096f,godirectinc_3670_prod_presentation - date_browser_campaign_daily,cb0db810-0710-47dc-a39d-5d8f1041b7ba
+563,fe011a26-18ce-46ff-af38-9e6b03041346,DateBrowser_Daily_Masked_KOS,d214f3d2-2082-4721-a9e7-d1f864000d9a
+564,fe011a26-18ce-46ff-af38-9e6b03041346,DateBrowserCampaignDaily_Masked_KOS,856e8049-3492-4ea7-85a4-6879a7088bd5
+565,e98e588f-ff4b-420f-905f-51607e3a968b,buffabrandmarketing_3747_prod_presentation - date_browser_daily,238ca056-7ad1-4aff-aecd-36ef5c8e4529
+566,e98e588f-ff4b-420f-905f-51607e3a968b,buffabrandmarketing_3747_prod_presentation - date_browser_campaign_daily,158b3924-9be2-40bd-952c-d3a54fce4d75
+567,2d9bb942-596b-4b91-9364-3035ff45af5e,synergyhouseinternational_3774_prod_presentation - date_browser_campaign_daily,e9303dcf-f532-4066-af8a-de4e5d6ea2fa
+568,2d9bb942-596b-4b91-9364-3035ff45af5e,synergyhouseinternational_3774_prod_presentation - date_browser_daily,972a2e08-3479-4137-bd6f-8d14fe37921c
+569,ccd2aa72-0aa9-4ed7-b121-62414260d521,amerify_3768_prod_presentation - date_browser_campaign_daily,7caed7f1-cc53-48d0-ba6d-f80c1bb320d7
+570,ccd2aa72-0aa9-4ed7-b121-62414260d521,amerify_3768_prod_presentation - date_browser_daily,a51db67c-e268-43d1-8d79-e3587e5e35be
+571,febc5c0b-884d-4e47-91b0-55a0186647cd,aadar_3759_prod_presentation - date_browser_campaign_daily,b6d172b9-3306-4a74-903d-b565da13b2ee
+572,febc5c0b-884d-4e47-91b0-55a0186647cd,aadar_3759_prod_presentation - date_browser_daily,b98d340d-c0a7-420c-bad5-2cf4b508e1d6
+573,88d37fbd-108b-4e17-8f04-cd5f8ce9d46c,aadar_3759_prod_presentation - date_browser_campaign_daily,b6d172b9-3306-4a74-903d-b565da13b2ee
+574,88d37fbd-108b-4e17-8f04-cd5f8ce9d46c,aadar_3759_prod_presentation - date_browser_daily,b98d340d-c0a7-420c-bad5-2cf4b508e1d6
+575,81b47306-ce6c-439a-991d-c055f28710a7,nexus_1909_test_presentation - date_browser_weekly,69e5458d-88e5-401b-ac97-375c811d5701
+576,81b47306-ce6c-439a-991d-c055f28710a7,nexus_1909_test_presentation - date_browser_campaign_weekly,7c25f583-77c5-486d-b8de-5dd65b2773f1
+577,1697e87c-f384-4771-a2fc-ceb81cf16721,DateBrowser_Weekly_Masked_KOS,b494d646-f4c1-42d4-a18c-27240828d841
+578,1697e87c-f384-4771-a2fc-ceb81cf16721,DateBrowserCampaign_Weekly_Masked_KOS,54aef3b1-7970-45c5-b298-593b6861e0d2
+579,0285e8f0-fe3b-41a9-90f0-34509a85b9eb,zocoproducts_3675_prod_presentation - date_browser_campaign_weekly,50527f9c-8f97-44cb-a732-14fd59f92960
+580,0285e8f0-fe3b-41a9-90f0-34509a85b9eb,zocoproducts_3675_prod_presentation - date_browser_weekly,09d12b6f-2f99-4a04-a6f6-bbf1ac4bd065
+581,84d02d4d-ab76-449b-8e5a-bafe10efbaca,clearads_3854_prod_presentation - date_browser_weekly,f8e51eed-fdb1-42d9-bd3a-e37086a8b549
+582,84d02d4d-ab76-449b-8e5a-bafe10efbaca,clearads_3854_prod_presentation - date_browser_campaign_weekly,88dc8bee-48da-4c3c-88f9-70f0d0f411c0
+583,49b3ddfb-474a-424f-83df-337d67c45149,aadar_3759_prod_presentation - date_browser_campaign_weekly,9f5deafc-0947-4b10-adbe-4e3188e6446d
+584,49b3ddfb-474a-424f-83df-337d67c45149,aadar_3759_prod_presentation - date_browser_weekly,80915ebc-75f7-436e-85e0-3a26151e9444
+585,174ebe47-6b1b-47dd-a251-5bb5903802d3,Datebrowser_Monthly_Masked_KOS,24c5f1cb-0c8b-421f-824a-2a8509286bd6
+586,174ebe47-6b1b-47dd-a251-5bb5903802d3,DateBrowserCampaignMonthly_Masked_KOS,9935f956-965c-4b96-ac3c-750b4d998c32
+587,f51bfff9-09e3-4cb4-bc28-e31d3b5ea612,nexus_1909_test_presentation - date_browser_monthly,acd01b37-0884-45b3-888c-155ce955163b
+588,f51bfff9-09e3-4cb4-bc28-e31d3b5ea612,nexus_1909_test_presentation - date_browser_campaign_monthly,fbde40d5-f5e2-44ae-8fe5-9e8a9d27a880
+589,c4074496-d398-4619-b26d-2fc30531f13d,nexus_1909_test_presentation - date_browser_monthly,acd01b37-0884-45b3-888c-155ce955163b
+590,c4074496-d398-4619-b26d-2fc30531f13d,nexus_1909_test_presentation - date_browser_campaign_monthly,fbde40d5-f5e2-44ae-8fe5-9e8a9d27a880
+591,f386335f-cafb-463b-815d-b9418ab7fd7f,DateBrowserCampaignMonthly_Masked_KOS,9935f956-965c-4b96-ac3c-750b4d998c32
+592,f386335f-cafb-463b-815d-b9418ab7fd7f,Datebrowser_Monthly_Masked_KOS,24c5f1cb-0c8b-421f-824a-2a8509286bd6
+593,e2f34344-0493-4b88-9661-51e10de5dae5,DateBrowserCampaignMonthly_Masked_KOS,9935f956-965c-4b96-ac3c-750b4d998c32
+594,e2f34344-0493-4b88-9661-51e10de5dae5,Datebrowser_Monthly_Masked_KOS,24c5f1cb-0c8b-421f-824a-2a8509286bd6
+595,53f1202d-ea14-4445-b8e6-a8247d9d180f,DateBrowserCampaignMonthly_Masked_KOS,9935f956-965c-4b96-ac3c-750b4d998c32
+596,53f1202d-ea14-4445-b8e6-a8247d9d180f,Datebrowser_Monthly_Masked_KOS,24c5f1cb-0c8b-421f-824a-2a8509286bd6
+597,1aa390a1-0ac2-4977-b3b8-d2f384dbf296,godirectinc_3670_prod_presentation - date_browser_campaign_monthly,d8f75c0b-659b-47a1-8586-b1df8510716d
+598,1aa390a1-0ac2-4977-b3b8-d2f384dbf296,godirectinc_3670_prod_presentation - date_browser_monthly,a4c39024-8cb6-4c0b-8718-1abd3cb14136
+599,80f9c1a0-6d77-4762-9ad6-531007014981,zocoproducts_3675_prod_presentation - date_browser_campaign_monthly,228d8338-bd49-4dac-a9af-bf0a100e806e
+600,80f9c1a0-6d77-4762-9ad6-531007014981,zocoproducts_3675_prod_presentation - date_browser_monthly,877dcb24-a30e-4304-8ff8-d8977c556149
+601,30fcec8e-0234-4888-8468-7701775af7f6,DateBrowserCampaignMonthly_Masked_KOS,9935f956-965c-4b96-ac3c-750b4d998c32
+602,30fcec8e-0234-4888-8468-7701775af7f6,Datebrowser_Monthly_Masked_KOS,24c5f1cb-0c8b-421f-824a-2a8509286bd6
+603,9fb1e219-182d-4219-9dc3-2b3f1552da04,buffabrandmarketing_3747_prod_presentation - date_browser_campaign_monthly,88a85d9b-a13e-4371-83fd-39311e67cc41
+604,9fb1e219-182d-4219-9dc3-2b3f1552da04,buffabrandmarketing_3747_prod_presentation - date_browser_monthly,c6b3ed74-bc87-4939-a853-1e6df35297f7
+605,09859ffc-c66c-41e9-9efb-2b28d8b0077a,synergyhouseinternational_3774_prod_presentation - date_browser_monthly,093f8ed1-19ac-4374-b1d7-e5d6aa4a6952
+606,09859ffc-c66c-41e9-9efb-2b28d8b0077a,synergyhouseinternational_3774_prod_presentation - date_browser_campaign_monthly,ffd41a42-a173-412d-b4fe-39f61e9f7ac4
+607,3c5184d8-d62e-442d-bf8b-cc58f06bba5d,amerify_3768_prod_presentation - date_browser_campaign_monthly,60350a0c-0a16-4741-8910-195efc354adf
+608,3c5184d8-d62e-442d-bf8b-cc58f06bba5d,amerify_3768_prod_presentation - date_browser_monthly,a4807dbd-dadb-4887-bc5b-55d99eba7afd
+609,41481eba-7464-4976-81c1-7a32f58269ee,katequinnorganics_3742_prod_presentation - date_browser_campaign_monthly,fc4eceae-7715-4c97-aa72-944158f1bcd4
+610,41481eba-7464-4976-81c1-7a32f58269ee,katequinnorganics_3742_prod_presentation - date_browser_monthly,dda8d5bf-0427-4400-8c9d-ca54111d69ab
+611,da90cf62-7d53-4f1c-a909-7183a14ad546,underdoggamesllc_3767_prod_presentation - date_browser_campaign_monthly,bee729a5-4c0c-4114-841b-e4699cdcdddd
+612,da90cf62-7d53-4f1c-a909-7183a14ad546,underdoggamesllc_3767_prod_presentation - date_browser_monthly,3e955dae-8fda-4952-81b3-517fb8cdeca7
+613,64798b31-e2bd-44fe-b6a6-a7c7eb40a6dc,aadar_3759_prod_presentation - date_browser_campaign_monthly,40e065e6-4580-49cf-8c5c-36c11670de2d
+614,64798b31-e2bd-44fe-b6a6-a7c7eb40a6dc,aadar_3759_prod_presentation - date_browser_monthly,89636821-4ef5-4d31-9280-f80c02c102e9
+615,37dbd7e7-7d3a-4d0b-a70e-a14bfec5ceb3,clearads_3854_prod_presentation - date_browser_monthly,ee5d3456-d389-4202-b2e2-316f3cf04af4
+616,37dbd7e7-7d3a-4d0b-a70e-a14bfec5ceb3,clearads_3854_prod_presentation - date_browser_campaign_monthly,65374106-ebce-4add-a809-4e1d1c4e1157
+617,388162f9-6186-46c5-8343-caeb7d4245cd,aadar_3759_prod_presentation - date_browser_monthly,89636821-4ef5-4d31-9280-f80c02c102e9
+618,388162f9-6186-46c5-8343-caeb7d4245cd,aadar_3759_prod_presentation - date_browser_campaign_monthly,40e065e6-4580-49cf-8c5c-36c11670de2d
+619,bfb9e6a7-5099-440f-8d9d-7a30d02bd366,snowballpartners_3878_prod_presentation - date_browser_campaign_monthly,8f124362-27f1-46f4-af82-1ead47908a04
+620,bfb9e6a7-5099-440f-8d9d-7a30d02bd366,snowballpartners_3878_prod_presentation - date_browser_monthly,709178b2-d639-434f-a93b-6445b89a1dfe
+621,93851471-b5db-4c84-9408-397c89917d44,dev_ekos - PnL_Amazon_Cumul_Masked,270ac7fb-fbcf-4ce1-9f31-05e5fbd6ba44
+622,8ae0e262-821f-4093-9659-e5eb8c7a6a4e,dev_ekos - PnL_Amazon_Cumul_Masked,270ac7fb-fbcf-4ce1-9f31-05e5fbd6ba44
+623,5281e0c1-0650-4d92-962b-966c1e5cc124,dev_ekos - PnL_Amazon_Cumul_Masked,270ac7fb-fbcf-4ce1-9f31-05e5fbd6ba44
+624,9b88dc51-961c-46ae-bfb8-9753aa58d400,dev_ekos - PnL_Amazon_Cumul_Masked,270ac7fb-fbcf-4ce1-9f31-05e5fbd6ba44
+625,d53b36e3-9a57-49aa-9394-13c42e1a868d,dev_ekos - PnL_Amazon_Cumul_Masked,270ac7fb-fbcf-4ce1-9f31-05e5fbd6ba44
+626,6fd56efd-3c44-4244-afe0-faab912de973,dev_ekos - PnL_Amazon_Cumul_Masked,270ac7fb-fbcf-4ce1-9f31-05e5fbd6ba44
+627,66dca621-22fb-4534-9f71-044a4d416f10,zocoproducts_3675_prod_presentation - PnL_Amazon_Cumul,930df865-83d0-44ef-84de-00fe0e62d595
+628,ad114edb-af90-4041-af7a-70965330f8d8,voyageurgroup_3722_prod_presentation - PnL_Amazon_Cumul,799c1bf7-d56a-4457-bc26-c83a396e13d4
+629,2061fb67-e2b2-498a-b1da-82244b013bc1,kbrands_3425_prod_presentation - PnL_Amazon_Cumul,bfc371d5-e54e-499c-900e-0de469fcc1b3
+630,6e868eae-265f-4529-8cd1-389b9ffe53cb,dev_ekos - PnL_Amazon_Cumul_Masked,270ac7fb-fbcf-4ce1-9f31-05e5fbd6ba44
+631,635b757b-2133-47f4-b5b4-90b6ef35ba28,buffabrandmarketing_3747_prod_presentation - PnL_Amazon_Cumul,e2605294-ecb8-4c32-b42b-4487d23cf740
+632,fe7a47bf-2662-41c8-a552-f45617c317ac,godirectinc_3670_prod_presentation - PnL_Amazon_Cumul,f23ec9a5-e0df-4ec5-afc4-0e77704da41b
+633,4e015c3c-df9c-4754-934e-0936eb7896a0,synergyhouseinternational_3774_prod_presentation - PnL_Amazon_Cumul,a35bb478-8bd1-4ba2-ac8b-7280083a67a8
+634,676e7fee-2258-4ab5-9bbd-d5fa777bde4c,amerify_3768_prod_presentation - PnL_Amazon_Cumul,96ac4c19-fd27-47cb-83e7-013bdb139c4f
+635,35259a44-d402-4ba4-ac36-5d7faf5fcbfb,dev_edm_prsn - PnL_Amazon_Cumul,1c777a54-1116-43bc-bc63-cf42e29b66d7
+636,e22967b6-50f3-432f-a3ac-2e34a89b1a72,underdoggamesllc_3767_prod_presentation - PnL_Amazon_Cumul,365f7c79-8047-4b3f-a175-8790d9f7c744
+637,7ebbb84f-d30e-4487-9f99-fa1ea69004b8,preppackltd_3824_prod_presentation - PnL_Amazon_Cumul,717abce5-97ae-4aa1-af57-d461988a1e43
+638,f2d3f290-b8f5-4ba8-8e98-abb1fab2dade,businesshub_3844_prod_presentation - PnL_Amazon_Cumul,e8c0a1c1-269d-40a6-b8b4-ffbe5ea366bc
+639,8e0ed0f5-94c4-4ed7-9f93-4f8044a0f80a,clearads_3854_prod_presentation - PnL_Amazon_Cumul,b9cec49a-fee8-452e-ba80-54e6fbfa8f78
+640,2b5fe63b-f8ce-4210-a8a3-298838046fe4,aadar_3759_prod_presentation - PnL_Amazon_Cumul,33715c18-c800-46b6-827c-f22fc036c69c
+641,538e0755-6613-4cba-8203-44724e937140,snowballpartners_3878_prod_presentation - PnL_Amazon_Cumul,b4213e26-50ba-401f-a929-0f41926a376b
+642,6b15b0fb-9b83-4305-b6db-599de9eecd9d,ListingsMasked,a87d396c-8797-44b0-963b-6685278c2f75
+643,c53e8aa2-d676-4367-bcc6-36d52f711b2c,ListingsMasked,a87d396c-8797-44b0-963b-6685278c2f75
+644,217a21ec-5a46-492c-ae9f-c30ae8b4ba5d,ListingsMasked,a87d396c-8797-44b0-963b-6685278c2f75
+645,e7938fc3-e077-4159-b01e-d0fef419fbb9,ListingsMasked,a87d396c-8797-44b0-963b-6685278c2f75
+646,abf8376e-fb43-4363-9365-187f722c0e98,ListingsMasked,a87d396c-8797-44b0-963b-6685278c2f75
+647,708e2216-c646-4463-8e70-4e375a7e5202,ListingsMasked,a87d396c-8797-44b0-963b-6685278c2f75
+648,a391cc0b-ca53-4f69-aebf-ddacf426647a,ListingsMasked,a87d396c-8797-44b0-963b-6685278c2f75
+649,61899c90-2d17-4c81-8ace-3eab4f03347b,dev_edm_presentation - Listings_PBI,e93bd386-6acf-4580-9243-d55db7561b7e
+650,4a874367-a5dd-4d10-8d26-3a13ddca4632,dbt_datoninsights360_prsn - Vendor_dashboards_final_for_PBI_and_Cumul,4ac2fe6f-8a0f-44f9-9e56-341947869417
+651,5d9b8319-616d-412e-9f5e-422aa9259f72,Date Browser Yearly_Masked_KOs,9913dae4-36f8-4db2-9db4-c36301cb7423
+652,5d9b8319-616d-412e-9f5e-422aa9259f72,Date Browser Campaign Yearly_Masked_KOS,63ecbe20-c9b2-401e-a17b-ffc2db2169e3
+653,bcaa880a-7a46-43c2-a213-9321096ed5a3,nexus_1909_test_presentation - date_browser_yearly,db64f67c-373d-48af-b8b4-68c038539723
+654,bcaa880a-7a46-43c2-a213-9321096ed5a3,nexus_1909_test_presentation - date_browser_campaign_yearly,70863391-dc7f-4692-924c-acfab356be18
+655,09c74282-0b89-4df9-82e4-48985a9e330b,nexus_1909_test_presentation - date_browser_yearly,db64f67c-373d-48af-b8b4-68c038539723
+656,09c74282-0b89-4df9-82e4-48985a9e330b,nexus_1909_test_presentation - date_browser_campaign_yearly,70863391-dc7f-4692-924c-acfab356be18
+657,5e32ffe9-5fd2-4533-a0c6-a15894ece8a2,Date Browser Yearly_Masked_KOs,9913dae4-36f8-4db2-9db4-c36301cb7423
+658,5e32ffe9-5fd2-4533-a0c6-a15894ece8a2,Date Browser Campaign Yearly_Masked_KOS,63ecbe20-c9b2-401e-a17b-ffc2db2169e3
+659,68782d29-9865-4976-a4a6-1efadf2b8bc0,Date Browser Yearly_Masked_KOs,9913dae4-36f8-4db2-9db4-c36301cb7423
+660,68782d29-9865-4976-a4a6-1efadf2b8bc0,Date Browser Campaign Yearly_Masked_KOS,63ecbe20-c9b2-401e-a17b-ffc2db2169e3
+661,0e1a64f4-0dbc-49c7-acec-91826487c639,Date Browser Yearly_Masked_KOs,9913dae4-36f8-4db2-9db4-c36301cb7423
+662,0e1a64f4-0dbc-49c7-acec-91826487c639,Date Browser Campaign Yearly_Masked_KOS,63ecbe20-c9b2-401e-a17b-ffc2db2169e3
+663,28102789-b285-4953-bc7a-9c321a9f4fcb,Date Browser Yearly_Masked_KOs,9913dae4-36f8-4db2-9db4-c36301cb7423
+664,28102789-b285-4953-bc7a-9c321a9f4fcb,Date Browser Campaign Yearly_Masked_KOS,63ecbe20-c9b2-401e-a17b-ffc2db2169e3
+665,630081ef-b0ff-4704-bf66-17d06e9df738,Date Browser Yearly_Masked_KOs,9913dae4-36f8-4db2-9db4-c36301cb7423
+666,630081ef-b0ff-4704-bf66-17d06e9df738,Date Browser Campaign Yearly_Masked_KOS,63ecbe20-c9b2-401e-a17b-ffc2db2169e3
+667,26920676-f0e2-4ee3-b860-540ea5883c29,kbrands_3425_prod_presentation - date_browser_campaign_yearly,a260281a-85d4-4291-82e5-372e6762ff44
+668,26920676-f0e2-4ee3-b860-540ea5883c29,kbrands_3425_prod_presentation - date_browser_yearly,7bf0ffd8-9d65-44ce-82f1-b6918db992a3
+669,cf051f0a-cbd1-4dd9-8fe9-db3f222dc61b,Date Browser Yearly_Masked_KOs,9913dae4-36f8-4db2-9db4-c36301cb7423
+670,cf051f0a-cbd1-4dd9-8fe9-db3f222dc61b,Date Browser Campaign Yearly_Masked_KOS,63ecbe20-c9b2-401e-a17b-ffc2db2169e3
+671,755193ac-d530-4378-8a9b-82242172e222,godirectinc_3670_prod_presentation - date_browser_yearly,8e662110-1421-4e64-90d8-12388997bd98
+672,755193ac-d530-4378-8a9b-82242172e222,godirectinc_3670_prod_presentation - date_browser_campaign_yearly,3bc588ca-d370-4e58-ac7b-45466e7c50a2
+673,9f0c08a4-1253-407a-889e-a654920d50bd,voyageurgroup_3722_prod_presentation - date_browser_yearly,e980924e-f4f4-4502-9675-1642ffebb170
+674,9f0c08a4-1253-407a-889e-a654920d50bd,voyageurgroup_3722_prod_presentation - date_browser_campaign_yearly,97ad83c5-4e11-41f9-9165-dd18c9b156cd
+675,b8a4d7b6-2b70-48a5-9fd7-b9653ab6c575,zocoproducts_3675_prod_presentation - date_browser_campaign_yearly,28f8532e-b7bf-420c-817b-cd9dfa1fb675
+676,b8a4d7b6-2b70-48a5-9fd7-b9653ab6c575,zocoproducts_3675_prod_presentation - date_browser_yearly,9e047c53-2e6b-46e4-8939-29a5f542ecf1
+677,44287597-51a3-40e5-9996-b011d526e0be,Date Browser Yearly_Masked_KOs,9913dae4-36f8-4db2-9db4-c36301cb7423
+678,44287597-51a3-40e5-9996-b011d526e0be,Date Browser Campaign Yearly_Masked_KOS,63ecbe20-c9b2-401e-a17b-ffc2db2169e3
+679,5b91e24f-ce76-4a4d-965a-8668911e96d3,buffabrandmarketing_3747_prod_presentation - date_browser_campaign_yearly,df549630-0508-4d0c-8854-3827ef485e9d
+680,5b91e24f-ce76-4a4d-965a-8668911e96d3,buffabrandmarketing_3747_prod_presentation - date_browser_yearly,90ac3c6f-3c28-4d14-be3b-cb52ae754f9b
+681,48ba66c8-aa39-461c-900b-991586828f2f,synergyhouseinternational_3774_prod_presentation - date_browser_campaign_yearly,1e96e52e-87c2-4850-af7d-e20366feb36f
+682,48ba66c8-aa39-461c-900b-991586828f2f,synergyhouseinternational_3774_prod_presentation - date_browser_yearly,ef3c414c-b299-48ee-9049-c0aca3183e94
+683,36a174ac-75b4-4724-8aa7-1323de02cdf9,amerify_3768_prod_presentation - date_browser_campaign_yearly,f076c5c2-fb9c-4f12-9ab0-4ed41518148b
+684,36a174ac-75b4-4724-8aa7-1323de02cdf9,amerify_3768_prod_presentation - date_browser_yearly,903a4136-8b1f-4d6b-8ada-b3b855f2da18
+685,a309d714-fb21-4705-8579-7e5a1e0e0ccd,katequinnorganics_3742_prod_presentation - date_browser_yearly,424a61e1-faea-460d-bdfd-d16eceb510cf
+686,a309d714-fb21-4705-8579-7e5a1e0e0ccd,katequinnorganics_3742_prod_presentation - date_browser_campaign_yearly,371124a4-717d-4a88-93c3-cc5a3e7db154
+687,8acf758a-4d75-4223-9bd5-f32d54b61d0c,dev_edm_prsn - date_browser_yearly,b39ed2bf-6269-42ba-bd4a-f0b189a9305f
+688,8acf758a-4d75-4223-9bd5-f32d54b61d0c,dev_edm_prsn - date_browser_campaign_yearly,1ad2a54a-1ab0-4d3c-baab-e1187a539a2b
+689,3b3dc510-6dc5-4450-9608-87340741b03f,underdoggamesllc_3767_prod_presentation - date_browser_campaign_yearly,563cdcbc-38bc-45af-9456-c47949e38d65
+690,3b3dc510-6dc5-4450-9608-87340741b03f,underdoggamesllc_3767_prod_presentation - date_browser_yearly,8ae66061-1524-4879-9b9d-800dcac1e0b6
+691,6f932f70-aa21-4c1a-9783-30590d95ef94,aadar_3759_prod_presentation - date_browser_campaign_yearly,efef639c-b332-4e32-927c-afad5830c910
+692,6f932f70-aa21-4c1a-9783-30590d95ef94,aadar_3759_prod_presentation - date_browser_yearly,7cd6854d-8970-4398-85bc-02e8983d5d78
+693,72ff931b-51bb-4684-aec6-0f1b8b12bf20,clearads_3854_prod_presentation - date_browser_campaign_yearly,e2a7ce4a-b65c-4eca-99b2-8756693e8d23
+694,72ff931b-51bb-4684-aec6-0f1b8b12bf20,clearads_3854_prod_presentation - date_browser_yearly,a7cd4568-a407-4679-86a6-e3196e4bd19c
+695,ec7ba7c6-60e5-42c4-9500-58ef2d4da059,businesshub_3844_prod_presentation - date_browser_campaign_yearly,b6702484-898e-49b3-9aa8-5a7a5bcef56a
+696,ec7ba7c6-60e5-42c4-9500-58ef2d4da059,businesshub_3844_prod_presentation - date_browser_yearly,b24a1a27-4bdc-41d0-903a-0351074e56bb
+697,5dff73e6-3630-4308-b6fe-6bd5dca1a0cf,aadar_3759_prod_presentation - date_browser_yearly,7cd6854d-8970-4398-85bc-02e8983d5d78
+698,5dff73e6-3630-4308-b6fe-6bd5dca1a0cf,aadar_3759_prod_presentation - date_browser_campaign_yearly,efef639c-b332-4e32-927c-afad5830c910
+699,2d16fe75-a187-40d6-8398-5343f5c4e7cf,snowballpartners_3878_prod_presentation - date_browser_campaign_yearly,0ccdbb17-147a-4809-8a5d-74b80bc17b0d
+700,2d16fe75-a187-40d6-8398-5343f5c4e7cf,snowballpartners_3878_prod_presentation - date_browser_yearly,deea7b88-68f9-48a1-bfb3-7812cc3bbf60
+701,68215e5b-6d47-4c27-8975-6d5ae6886594,bigquery_aerica - insights_total,2e5b200a-27c3-45a2-9b0e-d4b96aaa7337
+702,68215e5b-6d47-4c27-8975-6d5ae6886594,bigquery_aerica - updated_company_subscription_plan,15e0aeed-a8a9-4a85-a6c2-ec1fe7cfb69c
+703,68215e5b-6d47-4c27-8975-6d5ae6886594,bigquery_aerica - insights_rows_processed,a9ef89ae-6f22-49b8-94d6-d034e743ebb8
+704,68215e5b-6d47-4c27-8975-6d5ae6886594,pulse_revenue - revenue_generated,ef75dc67-92ba-42ce-a195-5d0260daf9c1
+705,68215e5b-6d47-4c27-8975-6d5ae6886594,bigquery_aerica - usersdata_public__user,96e972d3-9522-4948-920d-41aacb219a52
+706,68215e5b-6d47-4c27-8975-6d5ae6886594,pulse_revenue - bytes_processed,cbe56d2e-34d6-4d3b-9efc-345970a52b70
